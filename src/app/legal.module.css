@@ -1,0 +1,30 @@
+.page {
+  padding-top: calc(var(--altura-header) + 2.5rem);
+  padding-bottom: 4rem;
+  max-width: 760px;
+}
+
+.page h1 {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+}
+
+.page h2 {
+  font-size: 1.4rem;
+  margin-top: 2.2rem;
+}
+
+.page p,
+.page li {
+  font-size: var(--fs-small);
+}
+
+.updated {
+  color: var(--cinza-quente-claro);
+  font-size: 0.78rem;
+}
+
+.back {
+  display: inline-block;
+  margin-top: 2.5rem;
+  font-size: var(--fs-small);
+}

@@ -1,0 +1,35 @@
+{
+  "name": "prisma-odontologia",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:prod": "node scripts/check-pendencias.mjs --strict && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "images": "node scripts/optimize-images.mjs",
+    "check:pendencias": "node scripts/check-pendencias.mjs",
+    "test": "node --test tests/week.test.mjs",
+    "serve:out": "node scripts/serve-out.mjs 3011",
+    "verify": "node scripts/verify.mjs http://localhost:3011",
+    "lighthouse": "node scripts/lighthouse.mjs http://localhost:3011"
+  },
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@napi-rs/canvas": "^1.0.9",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "lighthouse": "^13.5.0",
+    "pdfjs-dist": "^6.3.289",
+    "playwright": "^1.63.0",
+    "sharp": "^0.34.0",
+    "typescript": "^5.7.0"
+  }
+}

@@ -1,0 +1,33 @@
+.lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.emblem {
+  height: 48px;
+  width: auto;
+}
+
+.wordmark {
+  height: 34px;
+  width: auto;
+}
+
+.footer .emblem {
+  height: 58px;
+}
+
+.footer .wordmark {
+  height: 40px;
+}
+
+@media (max-width: 420px) {
+  .emblem {
+    height: 40px;
+  }
+
+  .wordmark {
+    height: 28px;
+  }
+}

@@ -1,0 +1,56 @@
+/*
+ * Design tokens — Prisma Odontologia
+ * Paleta extraída do design aprovado (referencias/design-aprovado.jpeg).
+ * Decisões de derivação registradas em DECISOES.md.
+ */
+:root {
+  /* Cores da identidade */
+  --bege: #f3ebe7;
+  --bege-claro: #faf6f3;
+  --rose: #c0988e;
+  --rose-suave: #e8d8d3;
+  --marsala: #9c5a5c;
+  --marsala-escuro: #7a4143; /* hover e texto sobre bege — contraste AA */
+  --marsala-profundo: #5f3234; /* títulos grandes sobre claro */
+  --dourado: #c8ae84; /* somente fios finos, estrelas, contornos discretos */
+
+  /* Neutros quentes */
+  --branco-quente: #fdfbf9;
+  --cinza-quente: #5f544f; /* textos longos */
+  --cinza-quente-claro: #6f625c; /* textos secundários — AA sobre bege */
+
+  /* Tipografia (famílias definidas via next/font em layout.tsx) */
+  --font-titulo: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+  --font-corpo: var(--font-raleway), Raleway, "Segoe UI", sans-serif;
+  --font-manuscrita: var(--font-allura), Allura, cursive;
+
+  /* Escala tipográfica */
+  --fs-h1: clamp(2.5rem, 5.5vw, 4rem);
+  --fs-h2: clamp(2rem, 4vw, 2.9rem);
+  --fs-h3: 1.35rem;
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+  --fs-label: 0.75rem;
+
+  /* Espaços */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: 4rem;
+  --space-6: 6rem;
+
+  /* Raios e sombras */
+  --radius-s: 10px;
+  --radius-m: 18px;
+  --radius-l: 28px;
+  --shadow-suave: 0 6px 24px rgba(95, 50, 52, 0.07);
+  --shadow-media: 0 10px 34px rgba(95, 50, 52, 0.12);
+
+  /* Layout */
+  --largura-max: 1200px;
+  --altura-header: 72px;
+
+  /* Rótulos pequenos */
+  --tracking-label: 0.22em;
+}

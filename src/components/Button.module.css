@@ -1,0 +1,91 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  min-height: 44px;
+  padding: 0.65rem 1.5rem;
+  border-radius: 999px;
+  font-family: var(--font-corpo);
+  font-size: var(--fs-small);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  border: 1.5px solid transparent;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease,
+    transform 0.15s ease;
+  white-space: nowrap;
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+}
+
+.primary {
+  background: var(--marsala);
+  color: #fff;
+}
+
+.primary:hover {
+  background: var(--marsala-escuro);
+}
+
+.outline {
+  background: transparent;
+  color: var(--marsala-escuro);
+  border-color: var(--marsala);
+}
+
+.outline:hover {
+  background: rgba(156, 90, 92, 0.08);
+}
+
+.light {
+  background: #fff;
+  color: var(--marsala-escuro);
+  border-color: rgba(156, 90, 92, 0.25);
+  box-shadow: var(--shadow-suave);
+}
+
+.light:hover {
+  border-color: var(--marsala);
+}
+
+.ghost {
+  background: transparent;
+  color: var(--marsala-escuro);
+  padding-inline: 0.75rem;
+}
+
+.ghost:hover {
+  background: rgba(156, 90, 92, 0.08);
+}
+
+.soon {
+  font-size: 0.7rem;
+  font-weight: 500;
+  opacity: 0.75;
+  font-style: italic;
+}
+
+/* Pendente em desenvolvimento: contorno de alerta bem visível */
+.pendingDev {
+  outline: 2px dashed #c77b1e;
+  outline-offset: 3px;
+  cursor: not-allowed;
+}
+
+/* Pendente em produção: aparência desabilitada discreta, mantendo
+   contraste AA (sem opacidade sobre o texto) */
+.pendingProd {
+  background: var(--bege);
+  color: var(--marsala-escuro);
+  border: 1.5px dashed var(--rose);
+  cursor: not-allowed;
+}

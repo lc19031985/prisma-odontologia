@@ -1,0 +1,146 @@
+.hero {
+  position: relative;
+  padding-top: calc(var(--altura-header) + clamp(2rem, 6vw, 4.5rem));
+  padding-bottom: clamp(2.5rem, 6vw, 5rem);
+  background:
+    radial-gradient(60% 80% at 85% 20%, rgba(232, 216, 211, 0.35), transparent 70%),
+    linear-gradient(180deg, var(--bege-claro), var(--branco-quente));
+  overflow: hidden;
+}
+
+.verticalText {
+  position: absolute;
+  left: 18px;
+  top: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.verticalText p {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--marsala); /* AA sobre o fundo claro */
+  margin: 0;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+  align-items: center;
+  gap: clamp(2rem, 5vw, 4rem);
+}
+
+.content {
+  max-width: 480px;
+}
+
+.title {
+  font-size: var(--fs-h1);
+  margin-bottom: var(--space-2);
+}
+
+.lead {
+  font-size: 1.05rem;
+  max-width: 40ch;
+  margin-bottom: var(--space-3);
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-bottom: var(--space-3);
+}
+
+.specialtiesLine {
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--cinza-quente-claro);
+  margin: 0;
+}
+
+.dot {
+  color: var(--marsala);
+  margin-inline: 0.55em;
+}
+
+.media {
+  position: relative;
+  justify-self: end;
+  width: 100%;
+  max-width: 560px;
+}
+
+.photoShape {
+  position: relative;
+  aspect-ratio: 10 / 9;
+  border-radius: 54% 46% 50% 50% / 56% 52% 48% 44%;
+  overflow: hidden;
+  box-shadow: var(--shadow-media);
+}
+
+/* Fio dourado acompanhando o recorte orgânico */
+.photoShape::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.media::before {
+  content: "";
+  position: absolute;
+  inset: -14px 10px 10px -14px;
+  border: 1px solid var(--dourado);
+  border-radius: 54% 46% 50% 50% / 56% 52% 48% 44%;
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.handwritten {
+  position: absolute;
+  right: clamp(-1rem, -0.5vw, 0.5rem);
+  bottom: -1.2rem;
+  font-family: var(--font-manuscrita);
+  font-size: clamp(1.4rem, 2.2vw, 1.9rem);
+  line-height: 1.25;
+  color: var(--marsala); /* AA sobre o fundo claro */
+  text-align: right;
+  transform: rotate(-4deg);
+  margin: 0;
+}
+
+@media (max-width: 1320px) {
+  /* Sem espaço lateral livre: o texto vertical decorativo sai de cena
+     (simplificação prevista no prompt, seção 8) */
+  .verticalText {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .inner {
+    grid-template-columns: 1fr;
+  }
+
+  .media {
+    justify-self: center;
+    max-width: 440px;
+  }
+
+  .handwritten {
+    position: static;
+    text-align: center;
+    margin-top: 1.4rem;
+    transform: none;
+    font-size: 1.35rem;
+  }
+}

@@ -1,0 +1,1513 @@
+{
+  "_comentario": "Banco completo: 52 conjuntos, um por semana ISO, cada um com 3 itens (Dica da semana, Entenda, Na Prisma). Regras: linguagem para leigos, sem diagnóstico individual, sem promessa de resultado, sem preço/promoção/comparação; toda explicação termina orientando avaliação profissional. Itens 'Na Prisma' que citam recurso não confirmado trazem 'verificar' preenchido e constam em PENDENCIAS.md — NÃO publicar sem confirmação. Temas sazonais: volta às aulas (fev, semanas 5-8), Dia das Crianças (out, semanas 41-42), festas de fim de ano (dez, semanas 49-52).",
+  "semanas": [
+    {
+      "semana": 1,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Sua gengiva sangra ao escovar?",
+          "subtitulo": "Saiba por que isso merece atenção.",
+          "texto": "Gengiva saudável não costuma sangrar durante a escovação. O sangramento frequente pode indicar acúmulo de placa e inflamação, a chamada gengivite. Manter a escovação suave e o uso diário do fio dental ajuda bastante. Se o sangramento persistir por mais de alguns dias, procure uma avaliação profissional.",
+          "icone": "gengiva",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Implante dentário também precisa de limpeza e manutenção.",
+          "subtitulo": "O cuidado continua depois do tratamento.",
+          "texto": "O implante substitui a raiz do dente, mas a região ao redor dele continua precisando de higiene diária. Sem limpeza adequada, a gengiva em volta do implante pode inflamar. Escovação, fio dental e consultas periódicas de manutenção fazem parte da rotina de quem tem implantes. Converse com seu dentista sobre a frequência ideal de revisão para o seu caso.",
+          "icone": "implante",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Planejamento digital: mais precisão e segurança em cada etapa.",
+          "subtitulo": "Tecnologia a serviço do seu cuidado.",
+          "texto": "No planejamento digital, exames e imagens são organizados em programas de computador que ajudam a equipe a estudar cada caso antes de iniciar o tratamento. Isso permite visualizar etapas, antecipar decisões e planejar com mais segurança. Quer saber como funciona no seu caso? Agende uma avaliação.",
+          "icone": "digital",
+          "verificar": "confirmar se a clínica oferece planejamento digital"
+        }
+      ]
+    },
+    {
+      "semana": 2,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Fio dental: antes ou depois da escovação?",
+          "subtitulo": "O importante é usar todos os dias.",
+          "texto": "O fio dental alcança onde a escova não chega: o espaço entre os dentes e a linha da gengiva. Usá-lo antes da escovação ajuda o flúor da pasta a alcançar melhor essas áreas, mas o essencial é criar o hábito diário. Movimentos suaves, abraçando o dente em forma de C, evitam machucar a gengiva. Na dúvida sobre a técnica, peça uma orientação na sua próxima consulta.",
+          "icone": "fiodental",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Tratamento de canal não precisa ser assustador.",
+          "subtitulo": "Entenda o que acontece na consulta.",
+          "texto": "O tratamento de canal remove o tecido inflamado ou infeccionado do interior do dente, limpando e preenchendo os canais da raiz. É feito com anestesia local e, na maioria dos casos, alivia a dor em vez de causá-la. Adiar o tratamento é o que costuma agravar o problema. Se você sente dor persistente ou sensibilidade prolongada, procure uma avaliação profissional.",
+          "icone": "endodontia",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Atendimento odontopediátrico: o cuidado certo para cada infância.",
+          "subtitulo": "Da primeira consulta à adolescência.",
+          "texto": "Na Prisma, o atendimento de crianças é conduzido com calma e no ritmo de cada uma, criando confiança desde cedo. Consultas desde o primeiro ano de vida ajudam a prevenir cáries e a acompanhar o desenvolvimento dos dentes. Agende uma avaliação para começar esse acompanhamento.",
+          "icone": "odontopediatria",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 3,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Escova dura limpa melhor? Não é bem assim.",
+          "subtitulo": "Cerdas macias cuidam do esmalte e da gengiva.",
+          "texto": "Escovas de cerdas macias, usadas com movimentos suaves e sem pressa, limpam tão bem quanto as duras — e sem desgastar o esmalte nem machucar a gengiva. Troque a escova a cada três meses ou quando as cerdas abrirem. Uma boa técnica vale mais do que força. Peça uma demonstração na sua próxima consulta.",
+          "icone": "escova",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Bruxismo: quando apertar os dentes vira um problema.",
+          "subtitulo": "Sinais que merecem atenção.",
+          "texto": "Bruxismo é o hábito involuntário de apertar ou ranger os dentes, muitas vezes durante o sono. Pode causar desgaste dentário, dor na mandíbula e dores de cabeça ao acordar. O acompanhamento profissional identifica o quadro e indica o manejo adequado, que pode incluir placas de uso noturno. Se você acorda com a mandíbula cansada, vale procurar uma avaliação.",
+          "icone": "bruxismo",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Cuidados após implantes: dicas para uma melhor recuperação.",
+          "subtitulo": "O pós-operatório também importa.",
+          "texto": "Depois de uma cirurgia de implante, seguir as orientações da equipe faz diferença: repouso nas primeiras horas, alimentação adequada, higiene cuidadosa da região e uso correto das medicações prescritas. Cada caso recebe orientações específicas na consulta. Em caso de dúvida durante a recuperação, entre em contato com a clínica.",
+          "icone": "cuidados",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 4,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Consultas de rotina: por que ir ao dentista sem sentir dor?",
+          "subtitulo": "Prevenir costuma ser mais simples que tratar.",
+          "texto": "Muitas condições bucais, como cáries iniciais e alterações na gengiva, não doem no começo. É na consulta de rotina que elas são identificadas cedo, quando o cuidado é mais simples. Para a maioria das pessoas, uma revisão a cada seis meses é um bom ponto de partida. Agende sua avaliação e monte sua rotina de cuidado.",
+          "icone": "rotina",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Prótese dentária: os cuidados que prolongam o conforto.",
+          "subtitulo": "Higiene e revisões periódicas.",
+          "texto": "Próteses também acumulam placa e precisam de limpeza diária, com produtos adequados ao tipo de peça. Com o tempo, a boca muda e a prótese pode precisar de ajustes para continuar confortável. Desconforto, folga ou machucados são sinais de que é hora de revisar. Procure uma avaliação profissional antes de tentar adaptar a peça por conta própria.",
+          "icone": "protese",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Tecnologia digital na Prisma: mais precisão para o seu sorriso.",
+          "subtitulo": "Recursos que apoiam o diagnóstico.",
+          "texto": "A Prisma utiliza recursos digitais para apoiar o estudo de cada caso, do diagnóstico ao acompanhamento. Imagens e registros organizados ajudam a equipe a planejar o tratamento com mais segurança e a explicar cada etapa para você. Quer conhecer? Agende uma visita de avaliação.",
+          "icone": "digital",
+          "verificar": "confirmar quais recursos digitais a clínica oferece (scanner intraoral, radiografia digital etc.)"
+        }
+      ]
+    },
+    {
+      "semana": 5,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Volta às aulas: monte uma lancheira amiga do sorriso.",
+          "subtitulo": "Escolhas simples fazem diferença.",
+          "texto": "Frutas, água e lanches menos açucarados ajudam a proteger os dentes das crianças durante o período escolar. Sucos e bolachas doces, quando presentes, ficam melhor junto das refeições do que beliscados ao longo do dia. Uma garrafinha de água na mochila é uma grande aliada. Na consulta de rotina, peça orientações para a fase do seu filho.",
+          "icone": "odontopediatria",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Cárie: como ela aparece e como evitá-la.",
+          "subtitulo": "Um processo que começa em silêncio.",
+          "texto": "A cárie surge quando as bactérias da boca transformam açúcares em ácidos, que desgastam o esmalte do dente aos poucos. No início ela não dói, por isso passa despercebida. Escovação com pasta fluoretada, fio dental e menos açúcar entre as refeições são as principais defesas. As consultas periódicas permitem identificá-la cedo — agende a sua avaliação.",
+          "icone": "gengiva",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Atendimento para todas as fases da vida.",
+          "subtitulo": "Da infância à maturidade, em um só lugar.",
+          "texto": "Na Prisma, crianças, adultos e idosos encontram atendimento no mesmo espaço, com áreas diferentes da Odontologia trabalhando de forma integrada. Isso facilita a rotina da família e dá continuidade ao cuidado ao longo dos anos. Agende uma avaliação e conheça a clínica.",
+          "icone": "rotina",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 6,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "A escovação noturna é a mais importante do dia.",
+          "subtitulo": "Nunca durma sem escovar os dentes.",
+          "texto": "Durante o sono, a produção de saliva diminui e a boca fica mais vulnerável à ação das bactérias. Por isso, dormir sem escovar deixa placa e restos de alimento agindo a noite toda. Capriche na escovação antes de deitar e use o fio dental nesse horário. Dúvidas sobre a técnica? Pergunte na sua próxima consulta.",
+          "icone": "escova",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Selante dentário: proteção extra para os dentes das crianças.",
+          "subtitulo": "Uma barreira nos sulcos dos dentes.",
+          "texto": "O selante é uma fina camada de resina aplicada nos sulcos dos dentes de trás, onde a escova tem mais dificuldade de limpar. Ele funciona como uma barreira física contra o acúmulo de placa. É um procedimento rápido e indolor, indicado caso a caso. Uma avaliação profissional mostra se é o momento adequado para o seu filho.",
+          "icone": "odontopediatria",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Odontopediatria: consultas no ritmo da criança.",
+          "subtitulo": "Confiança se constrói com paciência.",
+          "texto": "Cada criança tem seu tempo — e na Prisma esse tempo é respeitado. As consultas são conduzidas com calma, brincadeira e explicações simples, para que o consultório se torne um lugar familiar. Assim, cuidar dos dentes vira parte natural da rotina. Agende uma visita para o seu filho conhecer a equipe.",
+          "icone": "odontopediatria",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 7,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Quanto de pasta usar? Menos do que você imagina.",
+          "subtitulo": "Um grão de ervilha é suficiente.",
+          "texto": "Para adultos, a quantidade ideal de creme dental é do tamanho de um grão de ervilha; para crianças pequenas, ainda menos. Mais pasta não significa mais limpeza — quem limpa é o movimento das cerdas. O excesso só aumenta a espuma e o desperdício. Na consulta, confirme a quantidade e o tipo de pasta indicados para a sua família.",
+          "icone": "escova",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Sensibilidade nos dentes: por que acontece?",
+          "subtitulo": "Aquela pontada com o gelado tem explicação.",
+          "texto": "A sensibilidade costuma aparecer quando a camada interna do dente, a dentina, fica exposta — por desgaste do esmalte, retração da gengiva ou outros motivos. O incômodo com alimentos gelados, quentes ou doces é o sinal mais comum. Existem cuidados e tratamentos que ajudam, mas a causa precisa ser identificada. Procure uma avaliação profissional se as pontadas forem frequentes.",
+          "icone": "gengiva",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Avaliação inicial: tempo para ouvir e examinar com calma.",
+          "subtitulo": "Seu caso estudado desde a primeira conversa.",
+          "texto": "Na primeira consulta, a prioridade é entender sua história: queixas, hábitos, expectativas e saúde geral. Depois vem o exame clínico detalhado, e só então as propostas de cuidado. Sem pressa e sem etapas puladas. Agende sua avaliação inicial pelo WhatsApp.",
+          "icone": "cuidados",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 8,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Troque a escova a cada três meses.",
+          "subtitulo": "Cerdas abertas limpam menos.",
+          "texto": "Com o uso, as cerdas da escova se deformam e perdem a capacidade de limpar direito, além de acumular resíduos. A recomendação geral é trocar a cada três meses — ou antes, se as cerdas estiverem abertas, e sempre depois de infecções como gripe ou dor de garganta. Anote a data da troca no cabo para não esquecer. Aproveite a consulta de rotina para revisar seus hábitos.",
+          "icone": "escova",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Aparelho fixo ou alinhador: entenda as diferenças.",
+          "subtitulo": "Caminhos diferentes para alinhar os dentes.",
+          "texto": "O aparelho fixo usa bráquetes e fios colados aos dentes; os alinhadores são placas transparentes removíveis trocadas periodicamente. Cada opção tem indicações, cuidados e rotinas diferentes — e nem todo caso pode ser tratado com qualquer uma delas. A escolha depende do diagnóstico. Uma avaliação ortodôntica indica o que se aplica ao seu caso.",
+          "icone": "bruxismo",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Ortodontia para adolescentes e adultos.",
+          "subtitulo": "Nunca é tarde para alinhar o sorriso.",
+          "texto": "O tratamento ortodôntico não é exclusividade da adolescência: adultos também podem alinhar os dentes, com planejamento adequado à sua fase de vida. Na Prisma, a ortodontia trabalha lado a lado com as demais áreas da clínica. Agende uma avaliação para conhecer as possibilidades do seu caso.",
+          "icone": "rotina",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 9,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Enxaguante bucal substitui a escovação?",
+          "subtitulo": "Ele é complemento, não substituto.",
+          "texto": "O enxaguante pode ajudar na sensação de frescor e, em alguns casos, complementar a higiene — mas não remove a placa como a escova e o fio dental fazem. Nenhum líquido substitui a limpeza mecânica. Alguns produtos têm indicações específicas e nem todos servem para uso diário. Pergunte ao seu dentista se você realmente precisa de um.",
+          "icone": "fiodental",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Placa bacteriana e tártaro: qual a diferença?",
+          "subtitulo": "Um vira o outro com o tempo.",
+          "texto": "A placa é uma película pegajosa de bactérias que se forma todos os dias sobre os dentes — e sai com escova e fio dental. Quando não é removida, ela endurece e vira tártaro, que já não sai em casa: só com limpeza profissional. O tártaro acumulado inflama a gengiva. Manter as consultas de rotina evita esse ciclo — agende a sua.",
+          "icone": "gengiva",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Limpeza profissional: o complemento da sua rotina.",
+          "subtitulo": "O que a escova não alcança, a consulta resolve.",
+          "texto": "Mesmo com boa escovação, alguns pontos da boca acumulam placa e tártaro com o tempo. Na limpeza profissional, esses depósitos são removidos com instrumentos adequados, e você ainda recebe orientações personalizadas de higiene. É um cuidado simples que protege dentes e gengiva. Agende a sua pelo WhatsApp.",
+          "icone": "rotina",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 10,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Beber água também protege os dentes.",
+          "subtitulo": "Hidratação é aliada da saúde bucal.",
+          "texto": "A água ajuda a limpar a boca entre as escovações, equilibra a acidez e mantém a produção de saliva — nossa defesa natural contra as cáries. Trocar refrigerantes e sucos por água ao longo do dia é um dos hábitos mais simples e eficazes para o sorriso. Mantenha uma garrafinha por perto. E mantenha também suas consultas de revisão em dia.",
+          "icone": "cuidados",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Gengivite e periodontite: fases do problema gengival.",
+          "subtitulo": "Quanto antes cuidar, mais simples.",
+          "texto": "A gengivite é a inflamação inicial da gengiva, geralmente causada pelo acúmulo de placa — nessa fase, o quadro costuma ser reversível com higiene e limpeza profissional. Sem cuidado, pode evoluir para periodontite, que atinge os tecidos que sustentam o dente. Sangramento, inchaço e mau hálito são sinais de alerta. Diante deles, procure uma avaliação profissional.",
+          "icone": "gengiva",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Diferentes especialidades conversando sobre o seu caso.",
+          "subtitulo": "Atendimento integrado na prática.",
+          "texto": "Quando o seu tratamento envolve mais de uma área — como gengiva, canal e prótese —, as profissionais da Prisma planejam juntas a melhor sequência de cuidado. Você não precisa recomeçar a história em cada lugar: tudo acontece de forma coordenada. Agende uma avaliação e sinta a diferença do cuidado integrado.",
+          "icone": "cuidados",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 11,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Açúcar escondido: fique de olho nos rótulos.",
+          "subtitulo": "Ele aparece onde você menos espera.",
+          "texto": "Biscoitos salgados, molhos prontos, cereais e bebidas \"saudáveis\" muitas vezes carregam bastante açúcar. Para os dentes, o que mais pesa é a frequência: pequenas doses ao longo do dia mantêm a boca ácida por mais tempo. Ler os rótulos ajuda a fazer escolhas melhores. Na consulta, converse sobre hábitos alimentares e saúde bucal.",
+          "icone": "cuidados",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Radiografias odontológicas: para que servem?",
+          "subtitulo": "Enxergando o que o exame clínico não vê.",
+          "texto": "Algumas condições — cáries entre os dentes, alterações na raiz ou no osso — não aparecem a olho nu. As radiografias permitem enxergar essas regiões e planejar tratamentos com mais precisão. São usadas com critério, apenas quando há indicação. Seu dentista explica quando e por que solicitá-las; pergunte na sua avaliação.",
+          "icone": "digital",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Planejamento individual antes de qualquer tratamento.",
+          "subtitulo": "Cada boca conta uma história diferente.",
+          "texto": "Na Prisma, nenhum tratamento começa sem um plano: primeiro a escuta, depois o exame e os registros necessários, e então uma proposta explicada com clareza — o que será feito, em que ordem e por quê. Você participa das decisões do início ao fim. Agende sua avaliação e conheça essa forma de cuidar.",
+          "icone": "rotina",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 12,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Escovar a língua também faz parte.",
+          "subtitulo": "Um passo rápido que muita gente pula.",
+          "texto": "A superfície da língua acumula bactérias e restos de alimento que contribuem para o mau hálito. Ao final da escovação, limpe a língua com a própria escova ou com um limpador específico, com movimentos suaves de trás para a frente. É rápido e faz diferença. Peça uma demonstração na sua próxima consulta.",
+          "icone": "escova",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Mau hálito: as causas mais comuns.",
+          "subtitulo": "Na maioria das vezes, a origem está na boca.",
+          "texto": "Higiene incompleta, língua sem limpeza, gengiva inflamada e boca seca estão entre as causas mais frequentes do mau hálito. Balas e enxaguantes apenas disfarçam por algumas horas — resolver mesmo exige identificar a origem. Em alguns casos, a causa pode estar fora da boca e pedir outros cuidados. Uma avaliação profissional é o primeiro passo.",
+          "icone": "gengiva",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Acolhimento para quem tem medo de dentista.",
+          "subtitulo": "Seu ritmo é respeitado aqui.",
+          "texto": "Medo de dentista é mais comum do que parece — e não é motivo de vergonha. Na Prisma, você pode contar sua experiência, combinar sinais de pausa e avançar no seu tempo, com cada etapa explicada antes de acontecer. Muitas pessoas redescobrem o cuidado bucal assim. Dê o primeiro passo: agende uma conversa.",
+          "icone": "cuidados",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 13,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Não use os dentes como ferramenta.",
+          "subtitulo": "Abrir embalagens é trabalho para a tesoura.",
+          "texto": "Abrir embalagens, cortar fita adesiva, roer tampas ou quebrar castanhas com os dentes pode causar trincas e fraturas — às vezes invisíveis no início. O esmalte é resistente para mastigar alimentos, não para funcionar como alicate. Tenha tesoura e abridor por perto e poupe seu sorriso. Se suspeitar de alguma trinca, procure uma avaliação.",
+          "icone": "cuidados",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Dente do siso: quando ele precisa de atenção?",
+          "subtitulo": "Nem todo siso precisa ser removido.",
+          "texto": "Os sisos são os últimos dentes a nascer, geralmente entre os 17 e 25 anos. Quando têm espaço e nascem alinhados, podem permanecer na boca sem problemas. A remoção é considerada quando ficam retidos, empurram outros dentes, inflamam a gengiva ou são difíceis de higienizar. Cada caso é único: só o exame clínico e radiográfico define a conduta. Agende uma avaliação.",
+          "icone": "endodontia",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "O encaminhamento certo dentro da própria clínica.",
+          "subtitulo": "Continuidade sem recomeçar do zero.",
+          "texto": "Se durante um tratamento surge a necessidade de outra especialidade, a transição acontece dentro da própria Prisma: o caso é repassado entre as profissionais com todas as informações preservadas. Menos deslocamentos, menos repetição de exames, mais continuidade. Conheça esse jeito de cuidar — agende sua avaliação.",
+          "icone": "cuidados",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 14,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Escova elétrica ou manual: qual escolher?",
+          "subtitulo": "As duas funcionam — o segredo é a técnica.",
+          "texto": "Bem usadas, tanto a escova manual quanto a elétrica limpam adequadamente. A elétrica pode facilitar para quem tem dificuldade com os movimentos, como crianças e pessoas com mobilidade reduzida; a manual exige técnica, mas cumpre o papel. Mais importante que o modelo é a constância e o capricho. Peça uma orientação personalizada na sua consulta.",
+          "icone": "escova",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Anestesia no dentista: mais confortável do que você pensa.",
+          "subtitulo": "Técnicas atuais priorizam seu bem-estar.",
+          "texto": "A anestesia local é o que permite realizar tratamentos sem dor. Hoje existem técnicas e cuidados que tornam a própria aplicação mais confortável, como o uso de anestésico tópico antes da agulha. O efeito passa em poucas horas e as orientações pós-consulta ajudam nesse período. Converse abertamente sobre suas preocupações na avaliação.",
+          "icone": "cuidados",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Horários que cabem na sua rotina.",
+          "subtitulo": "Inclusive aos sábados pela manhã.",
+          "texto": "A Prisma atende de segunda a sexta, das 8h às 18h, e aos sábados das 8h às 12h — uma janela pensada para quem tem a semana cheia. O agendamento é simples e direto pelo WhatsApp. Escolha o melhor horário e venha cuidar do seu sorriso.",
+          "icone": "rotina",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 15,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Beliscar o dia todo cansa os dentes.",
+          "subtitulo": "Intervalos entre as refeições protegem o esmalte.",
+          "texto": "Cada vez que comemos, a acidez da boca sobe e o esmalte fica temporariamente mais vulnerável. Quando beliscamos sem parar, os dentes não têm pausa para se recuperar. Concentrar os doces e lanches junto às refeições principais reduz esse desgaste. E a água entre elas ajuda a reequilibrar a boca. Converse sobre seus hábitos na próxima revisão.",
+          "icone": "cuidados",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Restauração: o que acontece quando a cárie é tratada cedo.",
+          "subtitulo": "Procedimento simples, dente preservado.",
+          "texto": "Quando a cárie é identificada no início, a solução costuma ser uma restauração: o tecido comprometido é removido e o espaço é preenchido com material da cor do dente. É um procedimento rotineiro, feito com anestesia local. Quanto mais cedo, menor o desgaste do dente. Mantenha suas revisões em dia e trate pequenos problemas antes que cresçam.",
+          "icone": "endodontia",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Agendamento simples e direto pelo WhatsApp.",
+          "subtitulo": "Sem burocracia para marcar sua consulta.",
+          "texto": "Marcar consulta na Prisma é rápido: você chama no WhatsApp, combina o melhor dia e horário e pronto. Pelo mesmo canal dá para tirar dúvidas sobre o atendimento e receber orientações antes da visita. Toque no botão de agendamento aqui do site e fale com a gente.",
+          "icone": "digital",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 16,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Aftas: o que ajuda e o que atrapalha.",
+          "subtitulo": "Pequenas feridas que pedem paciência.",
+          "texto": "Aftas são feridas pequenas e doloridas que costumam sarar sozinhas em uma ou duas semanas. Evitar alimentos muito ácidos e apimentados ajuda no conforto; machucar a região ou usar produtos por conta própria pode atrapalhar. Aftas muito frequentes, grandes ou que não cicatrizam merecem investigação. Nesses casos, procure uma avaliação profissional.",
+          "icone": "gengiva",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "O que é reabilitação oral?",
+          "subtitulo": "Devolver função e conforto à boca inteira.",
+          "texto": "Reabilitação oral é o planejamento que reorganiza a boca quando há vários dentes comprometidos ou ausentes — combinando, conforme o caso, implantes, próteses, tratamentos de gengiva e ajustes na mordida. O objetivo é devolver mastigação, fala e conforto de forma duradoura. É um caminho por etapas, construído caso a caso. Uma avaliação completa é o ponto de partida.",
+          "icone": "implante",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Reabilitação oral: um plano construído por etapas.",
+          "subtitulo": "Transformações consistentes levam tempo.",
+          "texto": "Casos complexos pedem organização: na Prisma, a reabilitação oral é conduzida em fases planejadas, com prioridades claras — primeiro a saúde, depois a função e a estética. A cada etapa você entende o que foi feito e o que vem a seguir. Agende uma avaliação para conhecer o caminho do seu caso.",
+          "icone": "implante",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 17,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Pratica esporte? Conheça o protetor bucal.",
+          "subtitulo": "Prevenção também entra em campo.",
+          "texto": "Em esportes de contato ou com risco de queda — futebol, lutas, skate, bike —, um protetor bucal reduz bastante o risco de fraturas dentárias e cortes na boca. Os modelos feitos sob medida são mais confortáveis e protegem melhor que os de farmácia. Se você ou seu filho treinam com frequência, converse sobre isso na próxima consulta.",
+          "icone": "cuidados",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Trauma dentário: o que fazer na hora?",
+          "subtitulo": "Os primeiros minutos fazem diferença.",
+          "texto": "Bateu a boca e o dente quebrou ou caiu? Mantenha a calma. Se um dente permanente saiu inteiro, segure-o pela coroa (sem tocar na raiz), e transporte-o em leite ou soro fisiológico. Procure atendimento odontológico imediatamente — o tempo é decisivo nesses casos. Guarde o contato da clínica no celular para emergências.",
+          "icone": "endodontia",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Um só lugar para a saúde bucal da família.",
+          "subtitulo": "Praticidade que vira vínculo.",
+          "texto": "Agendar a família inteira no mesmo lugar simplifica a vida: horários coordenados, histórico de todos acompanhado pela mesma equipe e um espaço que acolhe todas as idades. Com o tempo, o cuidado vira relação de confiança. Traga sua família para conhecer a Prisma.",
+          "icone": "rotina",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 18,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Gravidez e saúde bucal: cuidados que valem em dobro.",
+          "subtitulo": "A gestação pede atenção extra com a gengiva.",
+          "texto": "As mudanças hormonais da gravidez deixam a gengiva mais sensível e propensa a inflamações. Escovação suave, fio dental diário e boa hidratação ajudam muito nesse período. Enjoos e refluxo também pedem cuidados com o esmalte — enxaguar a boca com água ajuda. O acompanhamento odontológico durante a gestação é seguro e recomendado; agende sua avaliação.",
+          "icone": "gengiva",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Pré-natal odontológico: o que é?",
+          "subtitulo": "Cuidar da mãe é cuidar do bebê.",
+          "texto": "O pré-natal odontológico é o acompanhamento da saúde bucal da gestante ao longo da gravidez. Ele previne e trata inflamações gengivais, orienta sobre enjoos, alimentação e higiene, e prepara a família para os cuidados com a boca do bebê. A maioria dos procedimentos pode ser realizada com segurança na gestação. Converse com seu obstetra e agende sua avaliação odontológica.",
+          "icone": "cuidados",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Atendimento humano: escuta antes do tratamento.",
+          "subtitulo": "Você é mais do que um prontuário.",
+          "texto": "Na Prisma, a consulta começa com uma conversa de verdade: suas queixas, sua rotina, seus receios e o que você espera do tratamento. Esse cuidado com a escuta orienta todas as decisões clínicas. Respeito e atendimento personalizado não são detalhes — são o método. Venha conhecer: agende pelo WhatsApp.",
+          "icone": "cuidados",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 19,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Café, chá e vinho: como amenizar as manchas.",
+          "subtitulo": "Dá para conviver com eles com alguns cuidados.",
+          "texto": "Bebidas escuras podem manchar o esmalte com o tempo. Beber água em seguida, usar canudo quando fizer sentido e manter a higiene em dia ajudam a reduzir o efeito. A limpeza profissional periódica remove boa parte das manchas superficiais. Se a cor dos seus dentes incomoda, converse com seu dentista sobre as opções adequadas ao seu caso.",
+          "icone": "cuidados",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Manchas nos dentes: de onde elas vêm?",
+          "subtitulo": "Nem toda mancha tem a mesma causa.",
+          "texto": "Algumas manchas são superficiais, ligadas a alimentos, bebidas e cigarro; outras vêm de dentro do dente, por traumas, medicamentos ou o próprio envelhecimento. Cada tipo pede uma abordagem diferente — e algumas manchas merecem investigação antes de qualquer procedimento estético. O diagnóstico correto vem primeiro: procure uma avaliação profissional.",
+          "icone": "gengiva",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Estética com responsabilidade.",
+          "subtitulo": "Saúde primeiro, sempre.",
+          "texto": "Todo desejo estético é bem-vindo na Prisma — e é tratado com critério clínico. Antes de qualquer procedimento, a equipe avalia a saúde dos dentes e da gengiva e explica com realismo o que é possível no seu caso. Beleza construída sobre saúde dura mais. Agende uma avaliação para conversar sobre o que você gostaria de mudar.",
+          "icone": "cuidados",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 20,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Fio dental com aparelho fixo: truques que facilitam.",
+          "subtitulo": "Dá mais trabalho, mas é possível — e necessário.",
+          "texto": "Quem usa aparelho fixo precisa redobrar a higiene: o fio dental passa por baixo do fio ortodôntico com a ajuda de um passa-fio, e as escovas interdentais alcançam ao redor dos bráquetes. No começo é trabalhoso, mas vira hábito. A placa acumulada no aparelho pode manchar os dentes. Peça uma demonstração prática na sua consulta de manutenção.",
+          "icone": "fiodental",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Contenção: por que usar depois do aparelho?",
+          "subtitulo": "A etapa que protege o resultado.",
+          "texto": "Quando o aparelho sai, os dentes têm tendência natural de voltar à posição antiga. A contenção — fixa ou removível — segura o novo alinhamento enquanto os tecidos se estabilizam. Abandoná-la cedo é uma das principais causas de recidiva. O tempo de uso varia caso a caso; siga a orientação do seu ortodontista e mantenha os retornos em dia.",
+          "icone": "bruxismo",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Acompanhamento ortodôntico com consultas regulares.",
+          "subtitulo": "Ajustes no tempo certo.",
+          "texto": "O tratamento ortodôntico é uma jornada de meses — e o ritmo certo dos ajustes faz diferença no resultado. Na Prisma, os retornos são organizados com regularidade e cada consulta tem objetivo claro dentro do plano. Dúvidas entre uma visita e outra? O WhatsApp está aberto. Agende sua avaliação ortodôntica.",
+          "icone": "rotina",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 21,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Boca seca com frequência? Isso tem nome e solução.",
+          "subtitulo": "A saliva é sua defesa natural.",
+          "texto": "A sensação constante de boca seca, chamada xerostomia, pode vir de pouca hidratação, uso de certos medicamentos, respiração pela boca ou outras causas. Sem saliva suficiente, aumentam o risco de cáries e o desconforto ao falar e comer. Beber água com frequência ajuda, mas a causa merece investigação. Comente o sintoma na sua próxima consulta.",
+          "icone": "cuidados",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Diabetes e gengiva: uma relação de mão dupla.",
+          "subtitulo": "Cuidar de uma ajuda a outra.",
+          "texto": "O diabetes descompensado aumenta o risco de inflamações na gengiva — e a inflamação gengival, por sua vez, pode dificultar o controle da glicemia. Por isso, quem tem diabetes ganha duplamente ao manter a saúde bucal em dia: escovação caprichada, fio dental e revisões regulares. Informe sempre sua condição ao dentista e mantenha o acompanhamento médico e odontológico juntos.",
+          "icone": "gengiva",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Sua saúde geral faz parte do planejamento.",
+          "subtitulo": "A boca não vive isolada do corpo.",
+          "texto": "Doenças, medicamentos e hábitos influenciam o tratamento odontológico — e por isso a Prisma pergunta, registra e considera sua história de saúde em cada decisão. Quando necessário, o diálogo com seu médico entra no plano. É o cuidado olhando para a pessoa inteira. Agende sua avaliação.",
+          "icone": "cuidados",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 22,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Comeu algo ácido? Espere um pouco para escovar.",
+          "subtitulo": "Um intervalo que protege o esmalte.",
+          "texto": "Depois de frutas cítricas, refrigerantes ou vinho, o esmalte fica temporariamente amolecido pela acidez. Escovar nesse momento pode acelerar o desgaste. Enxágue a boca com água e aguarde cerca de 30 minutos antes da escovação. Pequenos ajustes de rotina preservam o esmalte por décadas. Tire suas dúvidas na próxima revisão.",
+          "icone": "escova",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Erosão dentária: quando o ácido desgasta o esmalte.",
+          "subtitulo": "Diferente da cárie, mas igualmente séria.",
+          "texto": "A erosão é a perda de esmalte pela ação direta de ácidos — de alimentos e bebidas, ou do próprio estômago, em casos de refluxo. Os dentes podem ficar sensíveis, amarelados e com bordas finas. Diferente da cárie, não envolve bactérias, e o esmalte perdido não se regenera. Identificar a causa cedo é essencial: procure uma avaliação se notar esses sinais.",
+          "icone": "gengiva",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Prevenção como base de todos os tratamentos.",
+          "subtitulo": "O melhor problema é o que não acontece.",
+          "texto": "Na Prisma, até os tratamentos mais complexos terminam do mesmo jeito: com um plano de prevenção para manter o resultado. Orientação de higiene, revisões programadas e atenção aos hábitos fazem parte do pacote de qualquer cuidado. Comece pelo básico: agende sua consulta de prevenção.",
+          "icone": "rotina",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 23,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Festa junina: aproveite os doces com estratégia.",
+          "subtitulo": "Canjica, pé de moleque e bom senso.",
+          "texto": "Nas festas de junho, doces e milho estão por toda parte — e não é preciso fugir deles. Prefira aproveitá-los de uma vez, junto das refeições, em vez de beliscar a noite toda; beba água entre uma delícia e outra; e capriche na escovação ao chegar em casa. Milho preso entre os dentes? Fio dental resolve. Boas festas — e revisão em dia!",
+          "icone": "cuidados",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Por que alguns dentes escurecem?",
+          "subtitulo": "Um sinal que merece investigação.",
+          "texto": "Um dente isolado que escurece pode ter sofrido um trauma antigo ou ter alterações na polpa — às vezes sem nenhuma dor. Já o escurecimento geral costuma vir do tempo, de hábitos e de manchas superficiais. As causas e as soluções são bem diferentes em cada situação. Se notou um dente mudando de cor, procure uma avaliação para investigar.",
+          "icone": "endodontia",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Diagnóstico com calma, sem pressa para intervir.",
+          "subtitulo": "Tratar bem começa por entender bem.",
+          "texto": "Nem toda alteração precisa de intervenção imediata — algumas pedem acompanhamento, outras, investigação mais profunda. Na Prisma, o diagnóstico é feito com o tempo e os registros necessários, e as opções são discutidas com você antes de qualquer decisão. Segurança vem da clareza. Agende sua avaliação.",
+          "icone": "cuidados",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 24,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Evite compartilhar talheres com o bebê.",
+          "subtitulo": "Cáries também envolvem bactérias transmissíveis.",
+          "texto": "As bactérias associadas à cárie podem passar de adulto para bebê pelo contato com saliva — ao provar a comida com a mesma colher, limpar a chupeta na boca ou beijar na boca. Evitar esses hábitos, junto com a higiene desde o primeiro dente, protege o início da vida bucal da criança. Tire suas dúvidas na consulta de odontopediatria.",
+          "icone": "odontopediatria",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Cárie precoce da infância: o que os pais precisam saber.",
+          "subtitulo": "Mamadeira noturna é um fator importante.",
+          "texto": "A cárie precoce atinge dentes de leite ainda nos primeiros anos, muitas vezes ligada a mamadeiras adoçadas — principalmente à noite, quando a saliva diminui. Ela avança rápido e pode causar dor e infecções. Higienizar a boca do bebê após as mamadas e evitar líquidos açucarados na madrugada são as principais defesas. Na dúvida, procure uma avaliação odontopediátrica.",
+          "icone": "odontopediatria",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Primeira consulta do bebê: quanto antes, melhor.",
+          "subtitulo": "O ideal é vir ainda no primeiro ano.",
+          "texto": "A primeira visita ao dentista é recomendada com o nascimento dos primeiros dentinhos, ainda no primeiro ano de vida. Na Prisma, essa consulta é leve: orientações sobre higiene, amamentação, chupeta e alimentação, com a criança no colo e os pais participando de tudo. Agende esse primeiro encontro pelo WhatsApp.",
+          "icone": "odontopediatria",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 25,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Chupeta e dedo: até quando?",
+          "subtitulo": "O hábito prolongado pode moldar a mordida.",
+          "texto": "A sucção de chupeta ou dedo é natural nos primeiros anos, mas quando se prolonga além dos 3 anos pode influenciar a posição dos dentes e o desenvolvimento da mordida. A retirada funciona melhor de forma gradual e afetuosa, sem broncas. Cada criança tem seu ritmo. O acompanhamento odontopediátrico ajuda a conduzir essa fase — converse na próxima consulta.",
+          "icone": "odontopediatria",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Mordida cruzada e outros desalinhamentos na infância.",
+          "subtitulo": "Alguns ajustes começam mais cedo do que se imagina.",
+          "texto": "Alguns problemas de mordida — como a mordida cruzada, quando os dentes de cima fecham por dentro dos de baixo — se beneficiam de intervenção ainda na infância, enquanto os ossos estão em crescimento. Outros casos podem aguardar. Só a avaliação identifica o momento ideal de agir. Por isso o acompanhamento regular desde cedo faz diferença: agende uma avaliação para seu filho.",
+          "icone": "odontopediatria",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Acompanhamento do crescimento da arcada infantil.",
+          "subtitulo": "Cada fase observada no tempo certo.",
+          "texto": "Nas consultas de rotina das crianças, a equipe da Prisma observa a troca dos dentes, o espaço na arcada e o desenvolvimento da mordida — e aciona a ortodontia quando (e somente quando) há indicação. Acompanhar de perto evita surpresas e intervenções desnecessárias. Mantenha as revisões do seu filho em dia.",
+          "icone": "odontopediatria",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 26,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Meio do ano: hora de revisar sua rotina de cuidado.",
+          "subtitulo": "Um balanço rápido em 4 perguntas.",
+          "texto": "Chegamos à metade do ano — bom momento para um balanço: você escovou os dentes com calma todos os dias? Usou fio dental? Trocou a escova nos últimos três meses? Fez sua revisão com o dentista? Se alguma resposta foi \"não\", ainda dá tempo de ajustar. Comece agendando sua consulta de revisão.",
+          "icone": "rotina",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Check-up odontológico: o que é avaliado?",
+          "subtitulo": "Muito além de procurar cáries.",
+          "texto": "Na consulta de revisão, o dentista examina dentes, gengiva, língua, bochechas e mordida; avalia restaurações e próteses antigas; e observa sinais que merecem acompanhamento. Também é o momento de atualizar orientações de higiene para a sua fase de vida. É um cuidado rápido que evita problemas grandes. Agende o seu.",
+          "icone": "rotina",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Revisões a cada seis meses: um convite ao cuidado contínuo.",
+          "subtitulo": "O intervalo certo para a maioria das pessoas.",
+          "texto": "Para a maioria das pessoas, revisar a saúde bucal a cada seis meses é um bom ritmo — e casos específicos podem pedir intervalos menores, definidos individualmente. Na Prisma, você sai da consulta já sabendo quando voltar. Simples assim. Agende sua revisão do meio do ano.",
+          "icone": "rotina",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 27,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Férias escolares: mantenha a rotina das crianças.",
+          "subtitulo": "Horários mudam, escovação não.",
+          "texto": "Nas férias, os horários bagunçam e os doces aparecem mais — faz parte. O que não pode sair da rotina é a escovação ao acordar e antes de dormir, com o fio dental à noite. Vale transformar o momento em brincadeira: música, ampulheta, escova nova divertida. E aproveitar a agenda livre para a revisão odontológica.",
+          "icone": "odontopediatria",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Bruxismo infantil: quando observar?",
+          "subtitulo": "Ranger os dentes também acontece na infância.",
+          "texto": "Algumas crianças rangem os dentes durante o sono, especialmente em fases de troca dentária — e muitas vezes o hábito desaparece sozinho. Merece atenção quando há desgaste visível nos dentes, queixas de dor ao acordar ou sono muito agitado. Relate o que você observa na consulta de rotina: o acompanhamento define se algo precisa ser feito.",
+          "icone": "odontopediatria",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Férias: o momento ideal para o check-up das crianças.",
+          "subtitulo": "Agenda livre, cuidado em dia.",
+          "texto": "Sem aula e sem pressa, as férias são perfeitas para colocar a revisão odontológica das crianças em dia — com horários mais flexíveis e clima leve. Assim, o retorno às aulas chega com o sorriso cuidado. Agende pelo WhatsApp e garanta o horário que funciona para a família.",
+          "icone": "odontopediatria",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 28,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Monte um kit de higiene para levar na bolsa.",
+          "subtitulo": "Escova, pasta e fio dental de bolso.",
+          "texto": "Um kit compacto — escova com protetor de cerdas, pasta pequena e fio dental — resolve a higiene depois do almoço fora de casa. Guarde a escova seca e arejada, nunca fechada ainda úmida por dias. Não deu para escovar? Enxaguar a boca com água e usar o fio dental já ajuda até chegar em casa. Pequenos hábitos, grande diferença.",
+          "icone": "escova",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Implante, ponte ou prótese: caminhos para repor um dente.",
+          "subtitulo": "Cada opção tem indicações próprias.",
+          "texto": "Um dente perdido pode ser reposto de formas diferentes: o implante substitui a raiz e recebe uma coroa; a ponte fixa se apoia nos dentes vizinhos; as próteses removíveis repõem vários dentes de uma vez. Osso disponível, saúde da gengiva e situação dos dentes vizinhos pesam na escolha. A avaliação profissional mostra o caminho adequado ao seu caso.",
+          "icone": "implante",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Implantodontia e reabilitação em um só lugar.",
+          "subtitulo": "Do planejamento à manutenção.",
+          "texto": "Na Prisma, o caminho da reposição de dentes acontece de forma integrada: avaliação, planejamento, cirurgia, prótese e manutenção, com a mesma equipe acompanhando cada fase. Essa continuidade dá segurança e coerência ao tratamento. Agende uma avaliação para conhecer as possibilidades do seu caso.",
+          "icone": "implante",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 29,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Dor de dente: o que fazer até a consulta?",
+          "subtitulo": "Alívio provisório, solução profissional.",
+          "texto": "Enquanto a consulta não chega: higienize bem a região (às vezes um resto de alimento é o vilão), use fio dental com cuidado, prefira água morna para enxaguar e evite mastigar do lado dolorido. Evite colocar comprimidos ou substâncias diretamente sobre o dente — isso machuca a gengiva. E não adie o atendimento: dor de dente não costuma passar sozinha. Fale com a clínica.",
+          "icone": "endodontia",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Urgência odontológica: o que é e quando procurar?",
+          "subtitulo": "Alguns sinais não devem esperar.",
+          "texto": "Dor intensa que não cede, inchaço no rosto, sangramento persistente e trauma com fratura ou perda de dente são situações de urgência — quanto antes atendidas, melhor a chance de preservar o dente e evitar complicações. Febre associada a inchaço pede atenção redobrada. Diante desses sinais, entre em contato imediatamente com um serviço odontológico.",
+          "icone": "endodontia",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "WhatsApp direto para orientar seus próximos passos.",
+          "subtitulo": "Fale conosco e saiba como agir.",
+          "texto": "Surgiu uma dor, um trauma ou uma dúvida urgente? Pelo WhatsApp da Prisma você descreve a situação e recebe orientação sobre os próximos passos e o agendamento. Ter um canal direto faz diferença na hora do aperto. Salve o contato da clínica no seu celular.",
+          "icone": "digital",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 30,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Aparelho soltou ou quebrou? Não conserte em casa.",
+          "subtitulo": "Improviso pode piorar a situação.",
+          "texto": "Bráquete solto, fio pontudo ou banda deslocada: aconteceu, evite puxar, colar ou cortar por conta própria. Se um fio estiver machucando, uma cera ortodôntica (vendida em farmácias) protege a bochecha até a consulta. Guarde qualquer peça que soltar e avise a clínica para avaliar a necessidade de reparo. O quanto antes, para não atrasar o tratamento.",
+          "icone": "bruxismo",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Como os alinhadores movimentam os dentes?",
+          "subtitulo": "Pequenas forças, grandes mudanças.",
+          "texto": "Os alinhadores transparentes aplicam forças leves e programadas sobre os dentes; a cada troca de placas, o movimento avança um pouco mais, seguindo um planejamento feito previamente. O sucesso depende da disciplina de uso — em geral, mais de 20 horas por dia. Nem todo caso é candidato ao método. Uma avaliação ortodôntica esclarece se ele serve para você.",
+          "icone": "digital",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Planejamento apoiado por tecnologia.",
+          "subtitulo": "Estudo detalhado antes de cada movimento.",
+          "texto": "Na Prisma, os tratamentos são estudados com apoio de recursos digitais que organizam imagens e registros do seu caso, ajudando a equipe a planejar com precisão e a mostrar para você o caminho proposto. Tecnologia como ferramenta — o cuidado continua humano. Agende uma avaliação.",
+          "icone": "digital",
+          "verificar": "confirmar quais recursos digitais de planejamento a clínica utiliza"
+        }
+      ]
+    },
+    {
+      "semana": 31,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Higiene de próteses removíveis: passo a passo.",
+          "subtitulo": "Cuidado diário conserva a peça e a boca.",
+          "texto": "Após as refeições, retire a prótese e escove-a com escova macia e sabão neutro — pasta comum pode riscar. Higienize também a gengiva e o céu da boca com escova macia ou gaze. À noite, deixe a peça em recipiente com água limpa, se essa for a orientação do seu caso. Prótese e boca limpas evitam inflamações e mau hálito. Dúvidas? Traga a peça na próxima consulta.",
+          "icone": "protese",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Prótese nova: o que esperar da adaptação?",
+          "subtitulo": "Estranhar no começo é normal.",
+          "texto": "Nos primeiros dias com uma prótese nova, é comum sentir a boca cheia, salivar mais e estranhar a fala — o corpo precisa de um tempo para se acostumar. Comece com alimentos macios e leia em voz alta para treinar a fala. Pontos de machucado, porém, não são normais: eles pedem ajuste profissional, não paciência. Agende o retorno se algo incomodar.",
+          "icone": "protese",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Ajustes de prótese: acompanhamento até o conforto.",
+          "subtitulo": "A entrega da peça não é o fim do cuidado.",
+          "texto": "Na Prisma, o tratamento com próteses inclui os retornos de ajuste: pequenos refinamentos que transformam uma peça bem feita em uma peça confortável de verdade. Machucou, afrouxou ou incomodou? É só avisar e agendar o ajuste. O acompanhamento faz parte do cuidado.",
+          "icone": "protese",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 32,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Uma noite sem escovar não faz mal? Faz.",
+          "subtitulo": "A madrugada é o turno das bactérias.",
+          "texto": "Durante o sono, a saliva diminui e a boca perde sua principal defesa natural. Dormir sem escovar deixa placa e açúcares agindo por horas seguidas, no pior momento possível. Por mais cansado que o dia tenha sido, os dois minutos de escovação valem a pena. Deixe a escova visível no banheiro como lembrete. Seu sorriso agradece — e sua próxima revisão também.",
+          "icone": "escova",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "O que acontece na sua boca durante o sono?",
+          "subtitulo": "Um período de menos defesa e mais hábitos.",
+          "texto": "À noite, a produção de saliva cai naturalmente, o que reduz a proteção contra ácidos e bactérias. É também quando se manifestam hábitos como ranger os dentes e respirar pela boca — que ressecam e desgastam. Acordar com a boca seca, mandíbula cansada ou mau hálito forte pode indicar algo a investigar. Comente seus sintomas noturnos na consulta.",
+          "icone": "bruxismo",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Placas para bruxismo feitas sob medida.",
+          "subtitulo": "Proteção personalizada para o seu sono.",
+          "texto": "Para quem range ou aperta os dentes à noite, a placa de uso noturno feita sob medida protege o esmalte e ajuda no conforto muscular. Ela é confeccionada a partir do molde da sua boca e ajustada individualmente. O primeiro passo é confirmar o diagnóstico em consulta. Agende uma avaliação.",
+          "icone": "bruxismo",
+          "verificar": "confirmar se a clínica confecciona placas oclusais para bruxismo"
+        }
+      ]
+    },
+    {
+      "semana": 33,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Sangrou uma vez? Observe. Sangra sempre? Agende.",
+          "subtitulo": "Aprenda a ler os sinais da gengiva.",
+          "texto": "Um sangramento isolado — depois de usar o fio dental com mais força, por exemplo — pode acontecer. O sinal de alerta é a repetição: gengiva que sangra com frequência está inflamada e pedindo cuidado. Não adianta parar de passar o fio dental na região; o caminho é o oposto: higiene caprichada e avaliação profissional. Marque sua consulta se o sangramento persistir.",
+          "icone": "gengiva",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Retração gengival: causas e cuidados.",
+          "subtitulo": "Quando a gengiva \"desce\" e a raiz aparece.",
+          "texto": "A retração acontece quando a gengiva se afasta do dente, expondo parte da raiz — por escovação agressiva, inflamação, mordida desajustada ou outros fatores. Além da estética, pode trazer sensibilidade e maior risco de cárie na raiz. A gengiva retraída não volta sozinha, mas a progressão pode ser controlada. Procure uma avaliação ao notar o sinal.",
+          "icone": "gengiva",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "A gengiva também é protagonista na avaliação.",
+          "subtitulo": "Saúde bucal vai além dos dentes.",
+          "texto": "Nas avaliações da Prisma, a gengiva recebe a mesma atenção que os dentes: cor, contorno, sangramento e pontos de retração são observados e registrados. É ela que sustenta o sorriso — literalmente. Sua gengiva anda esquecida? Agende uma avaliação completa.",
+          "icone": "gengiva",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 34,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Estresse e dentes: uma relação real.",
+          "subtitulo": "Tensão do dia a dia também aperta o sorriso.",
+          "texto": "Períodos de estresse aumentam o apertamento dos dentes — muitas vezes durante o dia, sem que a gente perceba. Uma checagem simples: lábios fechados, dentes separados é a posição de descanso natural. Se você se flagra com os dentes cerrados no trânsito ou no computador, respire e solte a mandíbula. Sintomas frequentes merecem avaliação profissional.",
+          "icone": "bruxismo",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "DTM: quando a articulação da mandíbula reclama.",
+          "subtitulo": "Estalos, travamentos e dor ao mastigar.",
+          "texto": "A articulação que liga a mandíbula ao crânio pode apresentar disfunções — as chamadas DTMs. Estalos ao abrir a boca, dor na região do ouvido, dificuldade para mastigar e dores de cabeça frequentes são sinais comuns. As causas são variadas e o manejo é individualizado, muitas vezes multidisciplinar. Diante desses sintomas, procure uma avaliação.",
+          "icone": "bruxismo",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Escuta cuidadosa dos seus sintomas antes do exame.",
+          "subtitulo": "Detalhes do dia a dia orientam o diagnóstico.",
+          "texto": "Onde dói, quando dói, o que melhora e o que piora: na Prisma, essas respostas valem ouro e são colhidas com calma antes de qualquer exame. Sintomas como dor de cabeça, estalos e cansaço na mandíbula ganham contexto — e o diagnóstico ganha precisão. Traga sua história: agende uma conversa.",
+          "icone": "cuidados",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 35,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Mastigar dos dois lados: um equilíbrio que protege.",
+          "subtitulo": "O lado \"preferido\" pode estar avisando algo.",
+          "texto": "Mastigar sempre do mesmo lado sobrecarrega músculos e articulação e pode indicar que algo incomoda do outro lado — um dente sensível, uma restauração alta, uma falha. Observe seu padrão nas próximas refeições. Se descobrir que evita um dos lados, vale investigar o motivo. Comente na sua próxima avaliação.",
+          "icone": "cuidados",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Perda óssea: por que dentes ausentes afetam o osso?",
+          "subtitulo": "O osso precisa de estímulo para se manter.",
+          "texto": "O osso que sustenta os dentes se mantém ativo graças ao estímulo da mastigação. Quando um dente é perdido e não reposto, essa região deixa de ser estimulada e o osso vai diminuindo com o tempo — o que pode dificultar reposições futuras e alterar o contorno do rosto. Por isso, repor dentes perdidos vai além da estética. Avalie suas opções sem demora.",
+          "icone": "implante",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Cirurgia guiada: precisão planejada no computador.",
+          "subtitulo": "O implante ensaiado antes de acontecer.",
+          "texto": "Na cirurgia guiada, a posição do implante é planejada digitalmente a partir de exames de imagem, e um guia impresso orienta a execução exatamente como o planejado. O resultado costuma ser um procedimento mais previsível e conservador. Quer saber se o seu caso tem indicação? Agende uma avaliação.",
+          "icone": "digital",
+          "verificar": "confirmar se a clínica realiza cirurgia guiada de implantes"
+        }
+      ]
+    },
+    {
+      "semana": 36,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Escova de dentes no trabalho: vale a pena?",
+          "subtitulo": "O almoço também merece pós-cuidado.",
+          "texto": "Se você almoça fora de casa todos os dias, uma escova no trabalho é um ótimo investimento. Guarde-a limpa, seca e protegida (sem abafar as cerdas úmidas em estojos fechados), e higienize-a bem antes de guardar. Sem escova por perto, água e fio dental já ajudam. Constância vale mais que perfeição — mantenha também suas revisões em dia.",
+          "icone": "escova",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Scanner intraoral: o exame sem massinha.",
+          "subtitulo": "A moldagem que virou imagem digital.",
+          "texto": "O scanner intraoral é uma pequena câmera que percorre os dentes e cria um modelo tridimensional da boca no computador — substituindo, em muitos casos, a tradicional moldagem com massa. O processo é rápido e confortável, e o modelo digital apoia o planejamento de próteses e alinhadores. É um recurso cada vez mais presente na Odontologia; pergunte sobre ele na sua avaliação.",
+          "icone": "digital",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Seu conforto como prioridade do atendimento.",
+          "subtitulo": "Detalhes que mudam a experiência.",
+          "texto": "Do agendamento sem burocracia ao ritmo respeitado durante os procedimentos, a Prisma cuida para que a experiência seja tranquila: ambiente acolhedor, explicações claras e pausas quando você precisar. Cuidar da boca não precisa ser um evento estressante. Venha conferir — agende sua visita.",
+          "icone": "cuidados",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 37,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Como guardar a escova no banheiro?",
+          "subtitulo": "Local certo, escova mais saudável.",
+          "texto": "O ideal é guardar a escova em pé, com as cerdas para cima, seca e arejada — longe do vaso sanitário e sem contato com escovas de outras pessoas. Capas protetoras só depois que as cerdas secarem, para não abafar a umidade. E nada de emprestar escova, nem entre familiares. Pequenos cuidados que protegem sua saúde todos os dias.",
+          "icone": "escova",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Fluorose: quando o excesso de flúor mancha os dentes.",
+          "subtitulo": "Equilíbrio é a palavra-chave.",
+          "texto": "O flúor é um grande aliado contra a cárie, mas em excesso durante a formação dos dentes — geralmente por ingestão de pasta na infância — pode causar manchas esbranquiçadas, a fluorose. A prevenção é simples: quantidade mínima de pasta para crianças e supervisão para que não engulam. Dúvidas sobre a quantidade certa para seu filho? Pergunte na consulta.",
+          "icone": "odontopediatria",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Orientação de higiene personalizada em consulta.",
+          "subtitulo": "Técnica ajustada à sua boca, não a um manual.",
+          "texto": "Cada boca tem seus desafios: apinhamentos, próteses, aparelhos, retrações. Na Prisma, a orientação de higiene é demonstrada na prática, com produtos e técnicas escolhidos para a sua situação — nada de receita genérica. Saia da próxima consulta sabendo exatamente como cuidar do seu caso. Agende.",
+          "icone": "rotina",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 38,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Palito de dente: melhor deixar de lado.",
+          "subtitulo": "O fio dental faz o serviço sem machucar.",
+          "texto": "O palito de madeira pode ferir a gengiva, empurrar restos de comida ainda mais fundo e, com o uso constante, abrir espaços entre os dentes. O fio dental faz a mesma função com muito mais segurança. Se algo fica preso com frequência no mesmo lugar, isso pode indicar um problema no ponto de contato entre os dentes — vale investigar em consulta.",
+          "icone": "fiodental",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Laser de baixa potência na Odontologia.",
+          "subtitulo": "Luz a serviço do conforto e da cicatrização.",
+          "texto": "O laser de baixa potência é usado na Odontologia como apoio em situações como aftas, sensibilidade e pós-operatórios, favorecendo o conforto e a cicatrização dos tecidos. É um recurso indolor e rápido, sempre indicado caso a caso, como complemento ao tratamento principal. Converse com seu dentista para saber quando ele pode ajudar.",
+          "icone": "digital",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Recursos modernos a serviço do seu cuidado.",
+          "subtitulo": "Tecnologia com propósito, não por moda.",
+          "texto": "Na Prisma, a tecnologia entra onde agrega de verdade: no diagnóstico mais preciso, no planejamento mais seguro e no conforto do atendimento. Cada recurso é um meio — o fim é sempre a sua saúde e o seu bem-estar. Conheça a estrutura da clínica: agende uma visita de avaliação.",
+          "icone": "digital",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 39,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Refrigerante: o que ele faz com os dentes?",
+          "subtitulo": "Ácido + açúcar: combinação que pede moderação.",
+          "texto": "O refrigerante une acidez (que amolece o esmalte) e açúcar (que alimenta as bactérias da cárie) — inclusive nas versões zero, que mantêm a acidez. Se for consumir, prefira junto às refeições, evite \"ir bebericando\" ao longo do dia e enxágue a boca com água depois. Água e sucos naturais continuam sendo os melhores amigos do sorriso.",
+          "icone": "cuidados",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Retratamento de canal: quando o canal precisa ser refeito.",
+          "subtitulo": "Uma segunda chance para o dente.",
+          "texto": "Em alguns casos, um dente já tratado com canal volta a apresentar problemas — por nova infecção, restauração comprometida ou anatomia complexa. O retratamento remove o material antigo, limpa novamente os canais e sela o dente outra vez. Dor ou inchaço em dente já tratado nunca deve ser ignorado: procure uma avaliação para investigar.",
+          "icone": "endodontia",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Endodontia com calma e cada etapa explicada.",
+          "subtitulo": "O tratamento de canal sem mistério.",
+          "texto": "Medo de canal geralmente é medo do desconhecido. Na Prisma, você entende o que será feito antes de começar: quantas sessões, o que esperar de cada uma e como será o pós. Com anestesia adequada e ritmo respeitado, o tratamento flui melhor do que a fama sugere. Sentindo algo? Agende uma avaliação.",
+          "icone": "endodontia",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 40,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Envolva as crianças na própria escovação.",
+          "subtitulo": "Autonomia com supervisão é o caminho.",
+          "texto": "Deixar a criança começar a escovação sozinha — e o adulto finalizar — desenvolve autonomia sem abrir mão da limpeza bem feita. Até os 7 ou 8 anos, a supervisão e a \"repassada\" do adulto continuam necessárias. Espelho na altura da criança, escova divertida e elogios ajudam a firmar o hábito. Peça dicas para a fase do seu filho na consulta.",
+          "icone": "odontopediatria",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Troca dos dentes de leite: o calendário natural.",
+          "subtitulo": "Cada dente tem sua hora de partir.",
+          "texto": "A troca dos dentes de leite costuma começar por volta dos 6 anos e seguir até os 12, começando pelos da frente. Dente de leite mole faz parte; a queda deve acontecer naturalmente, sem forçar. Atrasos grandes, dentes permanentes nascendo atrás dos de leite ou dor merecem avaliação. O acompanhamento regular monitora tudo isso — mantenha as consultas em dia.",
+          "icone": "odontopediatria",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Um espaço que acolhe as crianças.",
+          "subtitulo": "Ambiente pensado para visitas tranquilas.",
+          "texto": "Outubro é o mês das crianças — e na Prisma elas são recebidas com paciência, linguagem simples e um ambiente acolhedor, longe do clima frio de hospital. A primeira impressão importa: consultas leves hoje constroem adultos sem medo de dentista amanhã. Agende uma visita para seu filho conhecer o espaço.",
+          "icone": "odontopediatria",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 41,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Dia das Crianças: presentes que fazem bem ao sorriso.",
+          "subtitulo": "Que tal incluir um kit divertido de higiene?",
+          "texto": "Entre os presentes de outubro, vale incluir aliados do sorriso: escova com personagem favorito, pasta com sabor adequado à idade, ampulheta colorida para marcar o tempo de escovação. Transformar higiene em brincadeira é meio caminho para o hábito durar a vida toda. E o melhor presente continua sendo saúde: revisão em dia!",
+          "icone": "odontopediatria",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Primeira visita ao dentista: como preparar a criança?",
+          "subtitulo": "A expectativa dos pais influencia a experiência.",
+          "texto": "Fale da consulta com naturalidade e evite frases como \"não vai doer\" — que plantam a ideia de dor. Brincar de dentista em casa, ler livrinhos sobre o tema e deixar a criança levar um brinquedo de conforto ajudam bastante. Evite transferir seus próprios medos. Com clima leve, a primeira visita vira passeio. Agende num horário em que a criança esteja descansada.",
+          "icone": "odontopediatria",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Confiança construída consulta a consulta.",
+          "subtitulo": "Nosso presente para as crianças: cuidado sem medo.",
+          "texto": "No mês das crianças, reafirmamos um compromisso: cada consulta infantil na Prisma é pensada para terminar melhor do que começou — com a criança mais segura e a família mais tranquila. Sem pressa, sem susto, no ritmo de cada um. Traga seu filho para nos conhecer: agende pelo WhatsApp.",
+          "icone": "odontopediatria",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 42,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Doces das festas de outubro: combine os horários.",
+          "subtitulo": "Guloseima tem hora certa para fazer menos mal.",
+          "texto": "Depois das festas do Dia das Crianças, sobram doces pela casa. A dica de ouro: concentre-os como sobremesa das refeições, em vez de deixar beliscar o dia inteiro — a frequência do açúcar pesa mais que a quantidade. Água depois do doce e escovação noturna caprichada fecham a conta. Equilíbrio, não proibição.",
+          "icone": "odontopediatria",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Flúor nas crianças: quanto e quando?",
+          "subtitulo": "Proteção na medida certa para cada idade.",
+          "texto": "A pasta com flúor é recomendada desde o primeiro dente, na quantidade certa: um grão de arroz até os 3 anos, um grão de ervilha depois disso — sempre com supervisão para a criança não engolir. O flúor fortalece o esmalte e é a principal defesa contra a cárie infantil. As aplicações profissionais complementam quando indicadas. Confirme as doses na consulta do seu filho.",
+          "icone": "odontopediatria",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "A família participa do cuidado das crianças.",
+          "subtitulo": "Pais informados, hábitos que continuam em casa.",
+          "texto": "Na Prisma, a consulta infantil envolve quem cuida: os responsáveis acompanham, entendem o que foi avaliado e saem com orientações práticas para a rotina em casa. O consultório começa o cuidado; a família o mantém vivo todos os dias. Vamos juntos? Agende a consulta do seu filho.",
+          "icone": "odontopediatria",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 43,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Escova infantil: como escolher a certa?",
+          "subtitulo": "Tamanho e maciez adequados à idade.",
+          "texto": "Para crianças, escolha escovas de cabeça pequena — que alcancem os dentes de trás — e cerdas macias, com cabo adequado à pegada da idade. Personagens e cores ajudam na motivação, mas cabeça pequena e cerdas macias são o que importa. Troque a cada três meses, como a dos adultos. Na consulta, a equipe indica o modelo ideal para a fase do seu filho.",
+          "icone": "odontopediatria",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Respiração pela boca: sinais para observar nas crianças.",
+          "subtitulo": "Um hábito que afeta sono, rosto e dentes.",
+          "texto": "Crianças que respiram habitualmente pela boca podem apresentar sono agitado, ronco, lábios ressecados e alterações no desenvolvimento da face e da mordida. As causas variam — de obstruções nasais a hábitos — e o cuidado muitas vezes envolve mais de um profissional. Se você reconhece esses sinais, comente na consulta odontológica e com o pediatra.",
+          "icone": "odontopediatria",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Desenvolvimento observado em cada retorno.",
+          "subtitulo": "Crescimento acompanhado de perto.",
+          "texto": "Cada consulta infantil na Prisma é também uma checagem de desenvolvimento: troca de dentes, espaços na arcada, mordida, hábitos de sucção e respiração. Observando a cada retorno, a equipe age no momento certo — nem antes, nem depois. Continuidade é a chave: mantenha a agenda do seu filho em dia.",
+          "icone": "odontopediatria",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 44,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Novembro: um lembrete para os homens também.",
+          "subtitulo": "Saúde bucal não tem gênero — nem desculpa.",
+          "texto": "Estatísticas mostram que homens costumam adiar mais as idas ao dentista — e chegar com quadros mais avançados. Novembro, mês da saúde do homem, é um bom empurrão para inverter isso: uma consulta de revisão é rápida e evita tratamentos longos no futuro. Que tal agendar a sua ainda esta semana?",
+          "icone": "rotina",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Câncer bucal: a importância de olhar a própria boca.",
+          "subtitulo": "Feridas que não cicatrizam merecem atenção.",
+          "texto": "Feridas que não cicatrizam em 15 dias, manchas brancas ou avermelhadas, caroços e dificuldade persistente para engolir são sinais que pedem avaliação profissional — especialmente para quem fuma ou consome álcool com frequência. Diagnosticado cedo, o câncer bucal tem muito mais chances de tratamento bem-sucedido. Observe sua boca no espelho e mantenha as consultas regulares.",
+          "icone": "cuidados",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Os tecidos da boca também são examinados.",
+          "subtitulo": "A consulta de rotina olha além dos dentes.",
+          "texto": "Língua, bochechas, lábios, céu da boca e garganta fazem parte do exame clínico na Prisma. É uma checagem silenciosa que pode identificar cedo alterações importantes — mais um motivo para não pular as revisões. Sua consulta de rotina está em dia? Agende pelo WhatsApp.",
+          "icone": "rotina",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 45,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Bebê com a gengiva coçando? Veja o que ajuda.",
+          "subtitulo": "A fase da dentição pede paciência e frio.",
+          "texto": "Quando os primeiros dentes estão chegando, o bebê saliva mais, fica irritado e quer morder tudo. Mordedores gelados (não congelados), gaze limpa e fria na gengiva e colo extra ajudam no conforto. Evite pomadas ou remédios sem orientação profissional. Febre alta não é sinal normal de dentição — nesse caso, procure o pediatra. Dúvidas? A odontopediatria orienta.",
+          "icone": "odontopediatria",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Língua presa: o que é o teste da linguinha?",
+          "subtitulo": "Uma avaliação simples nos primeiros dias de vida.",
+          "texto": "O teste da linguinha avalia, ainda na maternidade ou nas primeiras semanas, se a membrana sob a língua do bebê limita seus movimentos — o que pode dificultar a amamentação e, mais tarde, a fala. Quando há limitação importante, um procedimento simples resolve. Se você tem dúvidas sobre a amamentação ou o freio lingual do seu bebê, procure avaliação profissional.",
+          "icone": "odontopediatria",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Bebês também são bem-vindos.",
+          "subtitulo": "O cuidado começa antes do primeiro dente.",
+          "texto": "Na Prisma, o acompanhamento pode começar cedo: orientações sobre higiene da gengiva, amamentação e hábitos de sucção já valem antes mesmo do primeiro dentinho. Começar cedo é plantar uma vida inteira de saúde bucal. Agende uma consulta de orientação para o seu bebê.",
+          "icone": "odontopediatria",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 46,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Feriado chegando: monte seu kit de viagem.",
+          "subtitulo": "O sorriso também entra na mala.",
+          "texto": "Antes de viajar, separe escova (com protetor ventilado), pasta, fio dental e, se usar, a placa de bruxismo ou contenção — esquecê-las por vários dias pode custar caro ao tratamento. Quem usa alinhadores deve levar também a caixinha e o cronograma das trocas. Na estrada, água sempre à mão. Boa viagem!",
+          "icone": "cuidados",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Por que dentes desalinhados dificultam a limpeza?",
+          "subtitulo": "Higiene e alinhamento andam juntos.",
+          "texto": "Dentes apinhados criam áreas de difícil acesso para a escova e o fio dental — onde a placa se acumula com mais facilidade, favorecendo cáries, tártaro e inflamação gengival. É por isso que o alinhamento, além da estética, tem papel na saúde. Se a higiene de alguma região da sua boca é sempre difícil, vale conversar sobre isso em uma avaliação.",
+          "icone": "bruxismo",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Planos de tratamento explicados sem pressa.",
+          "subtitulo": "Você entende antes de decidir.",
+          "texto": "Na Prisma, nenhum plano de tratamento é entregue como uma caixa fechada: a equipe explica o que foi encontrado, as opções possíveis, as etapas e os porquês — no seu tempo, com espaço para todas as perguntas. Decidir bem exige entender bem. Agende sua avaliação e comprove.",
+          "icone": "cuidados",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 47,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Roer unhas prejudica os dentes também.",
+          "subtitulo": "O hábito desgasta mais do que as unhas.",
+          "texto": "A onicofagia — o hábito de roer unhas — causa microtraumas nas bordas dos dentes da frente, podendo gerar desgastes e pequenas fraturas, além de sobrecarregar a mandíbula. Perceber os gatilhos (ansiedade, tédio) é o primeiro passo; manter as unhas aparadas ajuda. Se notar desgaste nos dentes, procure uma avaliação.",
+          "icone": "cuidados",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Facetas e lentes de contato dental: entenda antes de decidir.",
+          "subtitulo": "Procedimentos estéticos pedem critério.",
+          "texto": "Facetas e lentes são finas lâminas fixadas na frente dos dentes para modificar cor e formato. São procedimentos que exigem planejamento cuidadoso, indicação correta e, muitas vezes, algum desgaste do dente — por isso a decisão deve ser bem informada, considerando durabilidade e manutenção. Desconfie de promessas fáceis: comece por uma avaliação criteriosa.",
+          "icone": "protese",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Decisões estéticas com informação e realismo.",
+          "subtitulo": "Expectativas alinhadas, resultados consistentes.",
+          "texto": "Sonhos estéticos merecem respeito — e verdade. Na Prisma, você recebe uma avaliação honesta sobre o que é possível no seu caso, com prós, contras e alternativas de cada caminho. Sem pressão e sem promessas vazias. Quer conversar sobre o seu sorriso? Agende uma avaliação.",
+          "icone": "cuidados",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 48,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Prepare o sorriso para as festas com antecedência.",
+          "subtitulo": "Dezembro lota — novembro resolve.",
+          "texto": "Quer chegar às festas com a saúde bucal em dia? Antecipe-se: limpeza, revisão e eventuais tratamentos ficam mais tranquilos quando agendados antes da correria de dezembro. Assim, nada de dor de dente atrapalhando a ceia. Garanta seu horário com antecedência.",
+          "icone": "rotina",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Clareamento caseiro e de consultório: como funcionam?",
+          "subtitulo": "Os dois caminhos supervisionados.",
+          "texto": "No clareamento de consultório, o gel é aplicado pelo profissional em sessões; no caseiro supervisionado, você usa moldeiras com gel em casa, seguindo o plano do dentista. Ambos exigem avaliação prévia — restaurações, sensibilidade e a causa da cor influenciam a indicação. Produtos por conta própria podem causar danos. O primeiro passo é sempre a avaliação profissional.",
+          "icone": "cuidados",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Agende sua revisão antes do fim do ano.",
+          "subtitulo": "Feche o ano com o cuidado em dia.",
+          "texto": "O fim de ano se aproxima e a agenda da clínica se movimenta. Se a sua revisão de dezembro já está no radar, antecipe: escolha um horário confortável pelo WhatsApp e chegue às festas com tudo em ordem. Seu futuro eu de janeiro agradece.",
+          "icone": "rotina",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 49,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Festas de fim de ano: cuidado com gelo e castanhas.",
+          "subtitulo": "Mordidas erradas encerram o ano no dentista.",
+          "texto": "Nas celebrações de dezembro, alguns hábitos merecem atenção: mastigar gelo, quebrar castanhas com os dentes e abrir embalagens (ou garrafas!) com a boca são causas clássicas de fraturas dentárias — inclusive em restaurações. Use as ferramentas certas e deixe os dentes para o que sabem fazer. Qualquer trinca suspeita, procure avaliação.",
+          "icone": "cuidados",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Dente trincado: os sinais silenciosos.",
+          "subtitulo": "Nem toda fratura é visível.",
+          "texto": "Uma trinca no dente pode não aparecer a olho nu — mas dá sinais: dor ao mastigar (principalmente ao soltar a mordida), sensibilidade a temperaturas e desconforto que vai e volta. Sem tratamento, a trinca pode avançar e comprometer o dente. Se você reconhece esses sintomas, não espere a dor piorar: procure uma avaliação.",
+          "icone": "endodontia",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Dezembro organizado: agende com antecedência.",
+          "subtitulo": "Horários concorridos no fim do ano.",
+          "texto": "Dezembro é um mês de agenda cheia na Prisma — todo mundo quer chegar às festas com o sorriso em dia. Se você planeja uma consulta ainda este ano, garanta seu horário com antecedência pelo WhatsApp. A equipe organiza os encaixes com carinho, mas a antecedência é sua melhor aliada.",
+          "icone": "rotina",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 50,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Brindes e ceias: equilíbrio nas celebrações.",
+          "subtitulo": "Aproveite as festas cuidando do esmalte.",
+          "texto": "Espumantes e refrigerantes são ácidos; rabanadas e sobremesas, açucaradas — dezembro testa qualquer esmalte. O segredo é o de sempre: concentrar os exageros nas refeições, intercalar com água e não pular a escovação noturna, mesmo depois da festa. Espere um pouquinho para escovar após bebidas ácidas. Feliz dezembro, com moderação e alegria!",
+          "icone": "cuidados",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Sensibilidade com bebidas geladas no verão.",
+          "subtitulo": "O calor aumenta o consumo — e as pontadas.",
+          "texto": "Com o verão, sorvetes e bebidas geladas entram em cena — e, para quem tem sensibilidade, as pontadas também. A dor rápida ao frio pode indicar desgaste do esmalte, retração gengival ou outros quadros que merecem investigação. Pastas para dentes sensíveis ajudam no alívio, mas não tratam a causa. Se o gelado virou desconforto, agende uma avaliação.",
+          "icone": "gengiva",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Cuidado humano em cada atendimento.",
+          "subtitulo": "O diferencial que não sai de moda.",
+          "texto": "Num fim de ano corrido, reafirmamos o que nos move: escuta, respeito e atendimento personalizado, para cada pessoa que passa pela Prisma. Tecnologia ajuda, técnica resolve — mas é o cuidado humano que transforma consultas em confiança. Venha viver essa experiência: agende sua visita.",
+          "icone": "cuidados",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 51,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Viajou nas festas? Não abandone o fio dental.",
+          "subtitulo": "A rotina resumida para dias fora de casa.",
+          "texto": "Entre ceias, estradas e casas de parentes, a higiene tende a relaxar — mas o mínimo inegociável cabe em qualquer nécessaire: escovar ao acordar e antes de dormir e passar o fio dental à noite. Dois minutos que evitam começar o ano com problemas. Se algo incomodar durante a viagem, anote para investigar na volta.",
+          "icone": "fiodental",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Retorno pós-tratamento: por que comparecer?",
+          "subtitulo": "A consulta que consolida o resultado.",
+          "texto": "Depois de um canal, uma cirurgia ou a entrega de uma prótese, o retorno permite conferir a cicatrização, ajustar detalhes e orientar os próximos cuidados. Faltar a essa consulta deixa o tratamento sem o \"ponto final\" — e pequenos problemas sem correção viram grandes. Se você tem um retorno pendente, reagende: essa etapa faz parte do resultado.",
+          "icone": "rotina",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "Sua história de cuidado, registrada e acompanhada.",
+          "subtitulo": "Continuidade que atravessa os anos.",
+          "texto": "Cada consulta na Prisma alimenta o seu histórico: exames, tratamentos, orientações e evolução, tudo registrado. Assim, a equipe enxerga sua trajetória completa e planeja o futuro com base no que já foi vivido. Cuidado de verdade é contínuo. Vamos escrever o próximo capítulo? Agende sua consulta.",
+          "icone": "cuidados",
+          "verificar": null
+        }
+      ]
+    },
+    {
+      "semana": 52,
+      "itens": [
+        {
+          "categoria": "Dica da semana",
+          "titulo": "Um novo ano, uma rotina de cuidado renovada.",
+          "subtitulo": "Comece pelos hábitos que cabem no seu dia.",
+          "texto": "Fim de ano é tempo de recomeços — e a saúde bucal merece entrar na lista. Três metas realistas para janeiro: escovação noturna sem exceção, fio dental diário e a consulta de revisão marcada. Hábitos pequenos e constantes vencem promessas grandiosas. Que o próximo ano tenha muitos motivos para sorrir!",
+          "icone": "rotina",
+          "verificar": null
+        },
+        {
+          "categoria": "Entenda",
+          "titulo": "Metas de saúde bucal: como mantê-las o ano todo?",
+          "subtitulo": "Constância vale mais que perfeição.",
+          "texto": "Metas de saúde funcionam melhor quando são específicas e visíveis: fio dental junto da escova (não na gaveta), lembrete de troca de escova no celular, revisões já agendadas com antecedência. Associar o novo hábito a um antigo — como escovar logo após o café — também ajuda o cérebro. E quando falhar um dia, apenas recomece no seguinte. Sua rotina, seu ritmo.",
+          "icone": "cuidados",
+          "verificar": null
+        },
+        {
+          "categoria": "Na Prisma",
+          "titulo": "A Prisma deseja a você um ano de sorrisos.",
+          "subtitulo": "Obrigada por confiar seu cuidado a nós.",
+          "texto": "Que o novo ano chegue cheio de saúde, encontros e motivos para sorrir. A equipe da Prisma agradece a confiança de cada família que nos escolheu e segue de portas abertas para cuidar de você em todas as fases. Um brinde (com moderação!) e até a próxima consulta — agende quando quiser pelo WhatsApp.",
+          "icone": "cuidados",
+          "verificar": null
+        }
+      ]
+    }
+  ]
+}

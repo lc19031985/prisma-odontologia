@@ -1,0 +1,148 @@
+.section {
+  position: relative;
+  padding-block: clamp(2.5rem, 6vw, 4.5rem);
+  background: var(--branco-quente);
+  overflow: hidden;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: center;
+}
+
+.mapCol {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.mapFrame {
+  border-radius: var(--radius-l);
+  overflow: hidden;
+  box-shadow: var(--shadow-media);
+  border: 1px solid rgba(200, 174, 132, 0.4);
+  aspect-ratio: 16 / 12;
+}
+
+.mapFrame iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+.mapPlaceholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  border: none;
+  background: var(--bege);
+  color: var(--marsala-escuro);
+  font-family: var(--font-corpo);
+  font-size: var(--fs-small);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.mapLink {
+  align-self: flex-start;
+  font-size: var(--fs-small);
+  color: var(--marsala-escuro);
+}
+
+.title {
+  font-size: var(--fs-h2);
+}
+
+.lead {
+  font-size: var(--fs-small);
+  max-width: 48ch;
+  margin-bottom: var(--space-3);
+}
+
+.details {
+  list-style: none;
+  margin: 0 0 var(--space-3);
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.details li {
+  display: flex;
+  gap: 0.9rem;
+  align-items: flex-start;
+}
+
+.detailIcon {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--bege);
+  color: var(--marsala);
+}
+
+.address {
+  font-style: normal;
+  font-size: var(--fs-small);
+  line-height: 1.6;
+}
+
+.hour {
+  font-size: var(--fs-small);
+  margin: 0 0 0.2rem;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.sideText {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.sideText p {
+  writing-mode: vertical-rl;
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--marsala); /* AA sobre o fundo claro */
+  margin: 0;
+}
+
+@media (max-width: 1240px) {
+  .sideText {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .inner {
+    grid-template-columns: 1fr;
+  }
+
+  /* No celular, a estrutura vem antes do mapa (ordem de leitura) */
+  .mapCol {
+    order: 2;
+  }
+
+  .info {
+    order: 1;
+  }
+}

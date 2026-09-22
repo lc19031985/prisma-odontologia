@@ -1,0 +1,78 @@
+.section {
+  background: var(--bege-claro);
+  border-block: 1px solid rgba(200, 174, 132, 0.35);
+  padding-block: clamp(2rem, 5vw, 3.5rem);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  gap: clamp(1.5rem, 4vw, 3rem);
+}
+
+.speech {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  border: 1px solid var(--dourado);
+  color: var(--marsala);
+  background: var(--branco-quente);
+}
+
+.text {
+  flex: 1;
+}
+
+.title {
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  margin-bottom: 0.5rem;
+}
+
+.lead {
+  font-size: var(--fs-small);
+  max-width: 52ch;
+  margin: 0;
+}
+
+.action {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.stars {
+  display: flex;
+  gap: 4px;
+}
+
+.googleRow {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.gBadge {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: var(--shadow-suave);
+}
+
+@media (max-width: 860px) {
+  .inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .lead {
+    margin-inline: auto;
+  }
+}

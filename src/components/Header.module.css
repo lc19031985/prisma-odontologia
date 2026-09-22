@@ -1,0 +1,150 @@
+.header {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 100;
+  height: var(--altura-header);
+  background: transparent;
+  transition: background-color 0.25s ease, box-shadow 0.25s ease,
+    backdrop-filter 0.25s ease;
+}
+
+.scrolled {
+  background: rgba(253, 251, 249, 0.86);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 1px 0 rgba(156, 90, 92, 0.1);
+}
+
+.inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.logoLink {
+  display: inline-flex;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.navDesktop ul {
+  display: flex;
+  gap: clamp(0.8rem, 2vw, 1.8rem);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navDesktop a {
+  font-size: var(--fs-small);
+  font-weight: 500;
+  color: var(--cinza-quente);
+  text-decoration: none;
+  padding: 0.6rem 0.2rem;
+  transition: color 0.2s ease;
+}
+
+.navDesktop a:hover {
+  color: var(--marsala);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.menuToggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 100%;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--marsala-escuro);
+  transition: transform 0.25s ease, opacity 0.2s ease;
+}
+
+.barOpen1 {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.barOpen2 {
+  opacity: 0;
+}
+
+.barOpen3 {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+.navMobile {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .navDesktop {
+    display: none;
+  }
+
+  .menuToggle {
+    display: flex;
+  }
+
+  .header {
+    background: rgba(253, 251, 249, 0.92);
+  }
+
+  .cta {
+    padding-inline: 1rem;
+    font-size: 0.78rem;
+  }
+
+  .navMobile {
+    display: block;
+    background: var(--branco-quente);
+    border-top: 1px solid var(--rose-suave);
+    box-shadow: var(--shadow-media);
+  }
+
+  .navMobile[hidden] {
+    display: none;
+  }
+
+  .navMobile ul {
+    list-style: none;
+    margin: 0;
+    padding: 0.5rem 0 1rem;
+  }
+
+  .navMobile a {
+    display: block;
+    padding: 0.85rem 1.5rem;
+    font-size: 1rem;
+    color: var(--cinza-quente);
+    text-decoration: none;
+  }
+
+  .navMobile a:hover {
+    color: var(--marsala);
+    background: var(--bege-claro);
+  }
+}
+
+@media (max-width: 420px) {
+  .cta {
+    font-size: 0.72rem;
+    padding-inline: 0.8rem;
+  }
+}
