@@ -1,6 +1,5 @@
 import Button from "./Button";
 import { GoldLine } from "./OrganicShape";
-import { IconCamera } from "./Icons";
 import { whatsappLink } from "@/lib/links";
 import styles from "./Hero.module.css";
 
@@ -55,15 +54,26 @@ export default function Hero() {
 
         <div className={styles.media}>
           <div className={styles.photoShape}>
-            {/* PENDENTE: referencias/fotos/hero.* — usar <picture> otimizado quando houver */}
-            <div className="img-placeholder">
-              <IconCamera size={34} />
-              <span>
-                Foto principal da clínica
-                <br />
-                ou atendimento
-              </span>
-            </div>
+            <picture>
+              <source
+                type="image/avif"
+                srcSet="/img/hero-480.avif 480w, /img/hero-960.avif 960w"
+                sizes="(max-width: 900px) 90vw, 560px"
+              />
+              <source
+                type="image/webp"
+                srcSet="/img/hero-480.webp 480w, /img/hero-960.webp 960w"
+                sizes="(max-width: 900px) 90vw, 560px"
+              />
+              <img
+                src="/img/hero-960.webp"
+                alt="Sala de espera da Prisma Odontologia, com poltronas em tons claros, televisão exibindo a marca da clínica e decoração acolhedora"
+                width={960}
+                height={1015}
+                fetchPriority="high"
+                className={styles.photo}
+              />
+            </picture>
           </div>
           <p className={styles.handwritten} aria-hidden="true">
             Sorrisos que acompanham

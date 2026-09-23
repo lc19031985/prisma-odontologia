@@ -4,7 +4,7 @@ import { useState } from "react";
 import Button from "./Button";
 import Dialog from "./Dialog";
 import { Wave } from "./OrganicShape";
-import { IconCamera, IconHeartLine, IconToothLine, IconUsers } from "./Icons";
+import { IconHeartLine, IconToothLine, IconUsers } from "./Icons";
 import { whatsappLink } from "@/lib/links";
 import styles from "./About.module.css";
 
@@ -66,12 +66,27 @@ export default function About() {
           </ul>
 
           <div className={styles.media}>
-            {/* PENDENTE: referencias/fotos/recepcao.* */}
             <div className={styles.photoFrame}>
-              <div className="img-placeholder">
-                <IconCamera size={30} />
-                <span>Foto da recepção</span>
-              </div>
+              <picture>
+                <source
+                  type="image/avif"
+                  srcSet="/img/recepcao-480.avif 480w, /img/recepcao-960.avif 960w"
+                  sizes="(max-width: 700px) 90vw, 420px"
+                />
+                <source
+                  type="image/webp"
+                  srcSet="/img/recepcao-480.webp 480w, /img/recepcao-960.webp 960w"
+                  sizes="(max-width: 700px) 90vw, 420px"
+                />
+                <img
+                  src="/img/recepcao-960.webp"
+                  alt="Recepção da Prisma Odontologia, com balcão de mármore claro, arranjo de flores e a logomarca da clínica aplicada na parede"
+                  width={960}
+                  height={1011}
+                  loading="lazy"
+                  className={styles.photo}
+                />
+              </picture>
             </div>
           </div>
         </div>

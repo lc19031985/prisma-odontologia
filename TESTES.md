@@ -85,13 +85,15 @@ conjunto 52, virada de ano e sanidade de meio de ano.
   escuro; botões pendentes sem opacidade (fundo bege + tracejado).
 - Performance: mapa do Google adiado até a aproximação (MapEmbed).
 
-## Ainda NÃO testado — exige publicação e dados reais
+## Testes manuais — realizados pelo cliente (22/09/2026)
 
-- Abrir o WhatsApp num **celular real** pelo botão do site (conferir a
-  mensagem pré-preenchida no aplicativo).
+- Celular real: site aberto, botão de agendamento abrindo o WhatsApp com a
+  mensagem correta e "Traçar rota" abrindo o mapa — **"tudo certo"**,
+  conforme relato do cliente.
+
+## Ainda NÃO testado — exige dados reais
+
 - O link "Avaliar no Google" com o **Place ID real** (hoje pendente).
-- O mapa com a **chave restrita** ao domínio final (se for usada).
-- "Traçar rota" abrindo o aplicativo de mapas num celular real.
-- Lighthouse no domínio definitivo (rede e certificado reais).
+- O mapa com a **chave restrita** ao domínio (somente se for usar chave).
 - Leitores de tela reais (NVDA/VoiceOver) — a verificação automática não
   substitui esse teste.

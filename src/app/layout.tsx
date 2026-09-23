@@ -37,7 +37,6 @@ export const metadata: Metadata = {
   description:
     "Odontologia integrada, tecnologia e atendimento humano em Imperatriz. Implantodontia, Reabilitação Oral, Endodontia, Ortodontia e Odontopediatria.",
   alternates: { canonical: "/" },
-  // Imagem Open Graph ainda pendente (depende da foto do hero) — PENDENCIAS.md.
   openGraph: {
     title: "Prisma Odontologia | Cuidado e tecnologia em Imperatriz",
     description:
@@ -46,12 +45,21 @@ export const metadata: Metadata = {
     type: "website",
     locale: "pt_BR",
     siteName: clinic.name,
+    images: [
+      {
+        url: "/img/og.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Sala de espera da Prisma Odontologia",
+      },
+    ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Prisma Odontologia | Cuidado e tecnologia em Imperatriz",
     description:
       "Odontologia integrada, tecnologia e atendimento humano em Imperatriz.",
+    images: ["/img/og.jpg"],
   },
 };
 

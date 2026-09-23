@@ -16,7 +16,7 @@ responsável. O comando `npm run check:pendencias` lista as ocorrências de
 | Confirmação de registro de especialista de cada profissional na área anunciada | Enquanto não confirmado, os cartões exibem "Atuação em ..." (CFO). Com a confirmação, mudar para o título da especialidade | Alta |
 | Minicurrículo aprovado de cada profissional | `src/content/team.ts` (`bio`) | Média |
 | Texto institucional aprovado ("Conheça mais sobre a Prisma") | `src/components/About.tsx` (diálogo) — hoje há rascunho neutro marcado como provisório | Média |
-| Confirmação dos recursos citados em "Na Prisma" — 5 itens no banco semanal (campo `verificar`): planejamento digital (semanas 1 e 30), recursos digitais de diagnóstico (semana 4), placas oclusais para bruxismo (semana 32) e cirurgia guiada (semana 35). Se algum recurso NÃO for oferecido, o item deve ser reescrito antes da publicação | `src/content/weekly-content.json` | **Crítica para publicar** |
+| ~~Confirmação dos recursos citados em "Na Prisma"~~ **Resolvido** — cliente confirmou em 22/09/2026 que a clínica oferece todos: planejamento digital, recursos digitais de diagnóstico, placas oclusais para bruxismo e cirurgia guiada. Flags `verificar` removidos | `src/content/weekly-content.json` | — |
 | Razão social, CNPJ e e-mail do encarregado de dados (LGPD) | Páginas legais (`src/app/politica-de-privacidade/`, `src/app/termos-de-uso/`) | Alta |
 | Revisão jurídica das páginas legais | Ambas estão marcadas como rascunho no código-fonte | Alta |
 | Chave da Maps Embed API restrita (opcional) | `.env.local` — sem ela o site usa o embed público por endereço, que já funciona | Baixa |
@@ -26,13 +26,13 @@ responsável. O comando `npm run check:pendencias` lista as ocorrências de
 | Pendência | Onde entra |
 |---|---|
 | ~~Logomarca oficial~~ **Recebida** (PDF de identidade visual, 2026-09; extraída para `public/img/logo-*.png`) | Ainda bem-vindos: o arquivo vetorial editável (SVG/AI) e a variante horizontal oficial — hoje o arranjo horizontal é recomposto a partir dos recortes do arquivo oficial (ver DECISOES.md) |
-| Foto principal do hero (`hero.jpg`) | `referencias/fotos/` → `npm run images` → `src/components/Hero.tsx` |
-| Foto da recepção (`recepcao.jpg`) | `referencias/fotos/` → `src/components/About.tsx` |
+| ~~Foto principal do hero~~ **Recebida e aplicada** (22/09/2026) — sala de espera; original com moldura decorativa em `referencias/fotos/originais/`, corte limpo em `referencias/fotos/hero.webp` | `src/components/Hero.tsx` |
+| ~~Foto da recepção~~ **Recebida e aplicada** (22/09/2026) — idem, `referencias/fotos/recepcao.webp` | `src/components/About.tsx` |
 | Fotos das 4 profissionais (`dra-priscilla.jpg`, `dra-maine.jpg`, `dra-anna.jpg`, `dra-carla.jpg`) | `referencias/fotos/` → `src/components/Team.tsx` |
 | Ícones 3D definitivos das especialidades (cerâmica marfim, contorno champanhe) | `referencias/icones/` → substituem os SVGs provisórios de `src/components/SpecialtyIcon.tsx` |
 | Arquivos da fonte Cocomat Pro (.woff2) com licença — o manual de identidade a confirma como fonte de títulos, mas os arquivos não vieram | `referencias/fontes/` → `src/app/layout.tsx` (hoje: Cormorant Garamond) |
 | ~~Favicon~~ **Resolvido** — derivado do emblema oficial, sem redesenho (`src/app/icon.png`) | — |
-| Imagem Open Graph (derivada da foto do hero) | `src/app/layout.tsx` — depende da foto do hero |
+| ~~Imagem Open Graph~~ **Resolvida** — gerada da foto do hero (`public/img/og.jpg`, 1200×630) | `src/app/layout.tsx` |
 
 ## Desenvolvedor (fases seguintes, após aprovação do design)
 

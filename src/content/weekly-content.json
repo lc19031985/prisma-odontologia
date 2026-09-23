@@ -1,5 +1,5 @@
 {
-  "_comentario": "Banco completo: 52 conjuntos, um por semana ISO, cada um com 3 itens (Dica da semana, Entenda, Na Prisma). Regras: linguagem para leigos, sem diagnóstico individual, sem promessa de resultado, sem preço/promoção/comparação; toda explicação termina orientando avaliação profissional. Itens 'Na Prisma' que citam recurso não confirmado trazem 'verificar' preenchido e constam em PENDENCIAS.md — NÃO publicar sem confirmação. Temas sazonais: volta às aulas (fev, semanas 5-8), Dia das Crianças (out, semanas 41-42), festas de fim de ano (dez, semanas 49-52).",
+  "_comentario": "Banco completo: 52 conjuntos, um por semana ISO, cada um com 3 itens (Dica da semana, Entenda, Na Prisma). Regras: linguagem para leigos, sem diagnostico individual, sem promessa de resultado, sem preco/promocao/comparacao; toda explicacao termina orientando avaliacao profissional. Os recursos citados nos itens Na Prisma (planejamento digital, recursos digitais de diagnostico, placas oclusais para bruxismo e cirurgia guiada) foram CONFIRMADOS pelo cliente em 22/09/2026. Temas sazonais: volta as aulas (fev, semanas 5-8), Dia das Criancas (out, semanas 41-42), festas de fim de ano (dez, semanas 49-52).",
   "semanas": [
     {
       "semana": 1,
@@ -26,7 +26,7 @@
           "subtitulo": "Tecnologia a serviço do seu cuidado.",
           "texto": "No planejamento digital, exames e imagens são organizados em programas de computador que ajudam a equipe a estudar cada caso antes de iniciar o tratamento. Isso permite visualizar etapas, antecipar decisões e planejar com mais segurança. Quer saber como funciona no seu caso? Agende uma avaliação.",
           "icone": "digital",
-          "verificar": "confirmar se a clínica oferece planejamento digital"
+          "verificar": null
         }
       ]
     },
@@ -113,7 +113,7 @@
           "subtitulo": "Recursos que apoiam o diagnóstico.",
           "texto": "A Prisma utiliza recursos digitais para apoiar o estudo de cada caso, do diagnóstico ao acompanhamento. Imagens e registros organizados ajudam a equipe a planejar o tratamento com mais segurança e a explicar cada etapa para você. Quer conhecer? Agende uma visita de avaliação.",
           "icone": "digital",
-          "verificar": "confirmar quais recursos digitais a clínica oferece (scanner intraoral, radiografia digital etc.)"
+          "verificar": null
         }
       ]
     },
@@ -867,7 +867,7 @@
           "subtitulo": "Estudo detalhado antes de cada movimento.",
           "texto": "Na Prisma, os tratamentos são estudados com apoio de recursos digitais que organizam imagens e registros do seu caso, ajudando a equipe a planejar com precisão e a mostrar para você o caminho proposto. Tecnologia como ferramenta — o cuidado continua humano. Agende uma avaliação.",
           "icone": "digital",
-          "verificar": "confirmar quais recursos digitais de planejamento a clínica utiliza"
+          "verificar": null
         }
       ]
     },
@@ -925,7 +925,7 @@
           "subtitulo": "Proteção personalizada para o seu sono.",
           "texto": "Para quem range ou aperta os dentes à noite, a placa de uso noturno feita sob medida protege o esmalte e ajuda no conforto muscular. Ela é confeccionada a partir do molde da sua boca e ajustada individualmente. O primeiro passo é confirmar o diagnóstico em consulta. Agende uma avaliação.",
           "icone": "bruxismo",
-          "verificar": "confirmar se a clínica confecciona placas oclusais para bruxismo"
+          "verificar": null
         }
       ]
     },
@@ -1012,7 +1012,7 @@
           "subtitulo": "O implante ensaiado antes de acontecer.",
           "texto": "Na cirurgia guiada, a posição do implante é planejada digitalmente a partir de exames de imagem, e um guia impresso orienta a execução exatamente como o planejado. O resultado costuma ser um procedimento mais previsível e conservador. Quer saber se o seu caso tem indicação? Agende uma avaliação.",
           "icone": "digital",
-          "verificar": "confirmar se a clínica realiza cirurgia guiada de implantes"
+          "verificar": null
         }
       ]
     },
