@@ -19,18 +19,26 @@ robots.txt).
 4. Cada push publica automaticamente.
 
 **Domínio na Vercel:** Project → Settings → Domains → adicione
-`www.odontologiaprisma.com.br` e `odontologiaprisma.com.br`. A Vercel mostra
-os registros a criar no Registro.br:
+`www.odontologiaprisma.com.br` e `odontologiaprisma.com.br`.
 
-- No painel do Registro.br, em DNS → "Modo avançado":
-  - Registro **A** de `odontologiaprisma.com.br` → `76.76.21.21` (confirme o
-    IP indicado pela Vercel na tela de Domains);
-  - Registro **CNAME** de `www` → `cname.vercel-dns.com.`.
-- HTTPS é emitido automaticamente (Let's Encrypt) após a propagação (até 48h,
-  normalmente minutos).
-- Em Domains, marque `www.odontologiaprisma.com.br` como principal e
-  configure `odontologiaprisma.com.br` para **redirecionar para www** (é o
-  canônico usado no site).
+**DNS na Hostinger** (o domínio foi comprado pela Hostinger; os nameservers
+são os dela — `*.dns-parking.com` — e a zona é editada no hPanel):
+
+1. hpanel.hostinger.com → **Domínios** → `odontologiaprisma.com.br` →
+   **DNS / Nameservers** → gerenciar registros DNS.
+2. **Editar** o registro **A** existente de nome `@` (aponta para o IP de
+   estacionamento): trocar o valor para `76.76.21.21` (confirme o IP na tela
+   de Domains da Vercel). Se houver mais de um registro A em `@`, apagar os
+   demais.
+3. **Editar** o registro **CNAME** existente de nome `www` (aponta para o
+   próprio domínio): trocar o valor para `cname.vercel-dns.com`.
+4. Não mexer nos demais registros (MX/TXT). Se existirem registros **CAA**,
+   apagar ou garantir que `letsencrypt.org` está autorizado, senão o
+   certificado HTTPS não é emitido.
+5. HTTPS automático (Let's Encrypt) após a propagação (minutos a 48h).
+6. Em Domains (Vercel), marcar `www.odontologiaprisma.com.br` como principal
+   e configurar `odontologiaprisma.com.br` para **redirecionar para www**
+   (é o canônico usado no site).
 
 ## Alternativa: Netlify
 
