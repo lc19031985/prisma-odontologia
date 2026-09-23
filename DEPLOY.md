@@ -61,8 +61,10 @@ são os dela — `*.dns-parking.com` — e a zona é editada no hPanel):
 - [x] ~~Preencher `siteUrl`~~ — feito: `https://www.odontologiaprisma.com.br`
       (canônica, Open Graph e `sitemap.xml` já gerados no build).
 - [x] ~~Atualizar `public/robots.txt`~~ — feito, com a linha do sitemap.
-- [ ] Conferir se `https://www.odontologiaprisma.com.br` responde e se o
-      domínio raiz redireciona para www.
+- [x] **SITE NO AR (22/09/2026)**: `https://www.odontologiaprisma.com.br`
+      responde com HTTPS; o domínio raiz redireciona (308) para o www;
+      verificação 26/26 e Lighthouse 92/97/100/100 no domínio real
+      (TESTES.md).
 - [ ] Restringir a chave do Maps a `https://www.odontologiaprisma.com.br/*`
       (somente se for usar chave; sem ela o mapa já funciona).
 - [ ] Cadastrar o site no Google Search Console e enviar o sitemap.

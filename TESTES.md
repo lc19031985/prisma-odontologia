@@ -1,7 +1,21 @@
 # Testes — Prisma Odontologia
 
 Relatório honesto do que foi verificado (Fases 2–5, concluídas em 22/09/2026)
-e do que só pode ser testado após a publicação.
+e do que só pode ser testado manualmente.
+
+## Verificação NO SITE PUBLICADO (22/09/2026)
+
+Site no ar em **https://www.odontologiaprisma.com.br** (Vercel; domínio raiz
+redireciona com 308 para o www; HTTPS ativo).
+
+- Bateria completa (`node scripts/verify.mjs https://www.odontologiaprisma.com.br`):
+  **26/26 passando** — os mesmos resultados do build local, agora em produção.
+- Lighthouse mobile no domínio real: **Performance 92, Acessibilidade 97,
+  Boas práticas 100, SEO 100** (duas medições: 89 e 92 — variação normal do
+  Lighthouse em rede real; média acima da meta de 90).
+- `HOST_RESOLVER` (variável de ambiente aceita por verify.mjs/lighthouse.mjs)
+  força a resolução DNS no Chromium — usada porque o cache DNS local ainda
+  apontava para a página de estacionamento da Hostinger na hora do teste.
 
 ## Como reproduzir
 

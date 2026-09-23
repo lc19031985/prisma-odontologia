@@ -28,7 +28,13 @@ async function abrir(p, url = BASE) {
   await p.goto(url, { waitUntil: "networkidle" });
 }
 
-const browser = await chromium.launch();
+// HOST_RESOLVER (opcional): força a resolução de DNS no Chromium — útil
+// enquanto o cache DNS local ainda não propagou. Ex.:
+//   HOST_RESOLVER="MAP www.dominio.com.br 76.76.21.98"
+const launchArgs = process.env.HOST_RESOLVER
+  ? [`--host-resolver-rules=${process.env.HOST_RESOLVER}`]
+  : [];
+const browser = await chromium.launch({ args: launchArgs });
 
 // ── 1. Rolagem horizontal ────────────────────────────────────────────────
 for (const width of [320, 390, 768, 1440]) {

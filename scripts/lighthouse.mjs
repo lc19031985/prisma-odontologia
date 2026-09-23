@@ -9,9 +9,11 @@ import lighthouse from "lighthouse";
 const URL = process.argv[2] ?? "http://localhost:3010";
 const PORT = 9333;
 
-const browser = await chromium.launch({
-  args: [`--remote-debugging-port=${PORT}`],
-});
+const launchArgs = [`--remote-debugging-port=${PORT}`];
+if (process.env.HOST_RESOLVER) {
+  launchArgs.push(`--host-resolver-rules=${process.env.HOST_RESOLVER}`);
+}
+const browser = await chromium.launch({ args: launchArgs });
 
 try {
   const { lhr } = await lighthouse(URL, {
