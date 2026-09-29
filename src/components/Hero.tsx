@@ -24,11 +24,11 @@ export default function Hero() {
         <div className={styles.content}>
           <p className="section-label">Odontologia integrada</p>
           <h1 className={styles.title}>
-            Cuidado em<br />cada detalhe.
+            Integral que<br />transforma.
           </h1>
           <p className={styles.lead}>
             Tecnologia, planejamento e atendimento humano para cuidar de você em
-            todas as fases.
+            todas as fases da sua vida.
           </p>
           <div className={styles.buttons}>
             <Button href={whatsappLink()} external>

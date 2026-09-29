@@ -38,6 +38,15 @@ seção 2 do prompt.
   - "Saúde bucal para um futuro mais saudável" → "Acompanhamento regular da
     saúde bucal".
 
+## Slogan e texto do hero (decisão do cliente, 29/09/2026)
+
+- **Slogan trocado**: "Cuidado em cada detalhe." → **"Integral que
+  transforma."** — prevalece sobre o prompt original (seção 8). Aplicado no
+  H1 do hero e na frase manuscrita do rodapé (via `clinic.slogan`), sem
+  alterar o design.
+- **Texto de apoio do hero**: "...para cuidar de você em todas as fases."
+  → "...em todas as fases **da sua vida**."
+
 ## Logomarca oficial (recebida em 2026-09 via PDF de identidade visual)
 
 - Fonte: `PRISMA_material_grafico.pdf` (ArthDesignn, Identidade Visual 2025),

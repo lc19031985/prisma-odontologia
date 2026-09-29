@@ -6,7 +6,7 @@
  */
 export const clinic = {
   name: "Prisma Odontologia",
-  slogan: "Cuidado em cada detalhe.",
+  slogan: "Integral que transforma.",
   phoneDisplay: "(99) 98263-0549",
   whatsappNumber: "5599982630549",
   whatsappMessage:
