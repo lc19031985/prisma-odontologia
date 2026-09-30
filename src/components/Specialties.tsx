@@ -3,8 +3,7 @@
 import { useState } from "react";
 import Button from "./Button";
 import Dialog from "./Dialog";
-import SpecialtyIcon from "./SpecialtyIcon";
-import { IconChevronRight } from "./Icons";
+import SpecialtyIcon, { SpecialtyIconDefs } from "./SpecialtyIcon";
 import { specialties, type Specialty } from "@/content/specialties";
 import { whatsappLink } from "@/lib/links";
 import styles from "./Specialties.module.css";
@@ -24,6 +23,15 @@ export default function Specialties() {
           <h2 className={styles.title}>Especialidades</h2>
         </header>
 
+        {/* Gradientes/filtros dos ícones — uma única vez na página. */}
+        <SpecialtyIconDefs />
+
+        {/*
+          Cards do design "Cards Especialidades" (referencias/design/). O
+          design pede <a> para uma página por especialidade; como o site é
+          de página única, o card continua abrindo o diálogo — por isso é
+          <button> e o conteúdo interno usa <span> (conteúdo permitido).
+        */}
         <ul className={styles.grid}>
           {specialties.map((s) => (
             <li key={s.id}>
@@ -32,15 +40,24 @@ export default function Specialties() {
                 className={styles.card}
                 onClick={() => setOpen(s)}
               >
-                <span className={styles.cardIcon} aria-hidden="true">
-                  <SpecialtyIcon icon={s.icon} />
-                </span>
-                <span className={styles.cardText}>
-                  <strong>{s.title}</strong>
-                  <span>{s.caption}</span>
-                </span>
-                <span className={styles.cardArrow} aria-hidden="true">
-                  <IconChevronRight />
+                <span className={styles.inner}>
+                  <SpecialtyIcon icon={s.icon} className={styles.icon} />
+                  <span>
+                    <span className={styles.cardTitle}>{s.title}</span>
+                    <span className={styles.cardDesc}>{s.caption}</span>
+                  </span>
+                  <span className={styles.cardBtn} aria-hidden="true">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="#843B3B"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="m9 18 6-6-6-6" />
+                    </svg>
+                  </span>
                 </span>
               </button>
             </li>

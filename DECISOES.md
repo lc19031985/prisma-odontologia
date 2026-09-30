@@ -107,3 +107,25 @@ seção 2 do prompt.
   Google só entram para quem chega ao mapa (alinhado à política de cookies).
 - **Apontamento axe aceito**: `region` (moderate) — o botão flutuante de
   WhatsApp fica fora de landmarks, comportamento padrão desse tipo de botão.
+
+## Cards de especialidades (design "Cards Especialidades", 29/09/2026)
+
+Prompt do Claude Design guardado em `referencias/design/cards-especialidades.md`;
+implementado em `Specialties.tsx`/`.module.css` e `SpecialtyIcon.tsx` com as
+cores, proporções (`aspect-ratio: 3.4/1`, medidas internas em `cqw`),
+tipografia e ícones exatamente como especificados. Adaptações ao projeto:
+
+- **`<button>` em vez de `<a>`**: o design pressupõe uma página por
+  especialidade (`/especialidades/SLUG`), que o site de página única não tem;
+  o card segue abrindo o diálogo com o texto da especialidade.
+- **Cor da descrição `#827972` → `#7A716A`** (mesmo tom, 8 pontos mais
+  escuro): o original dá 4,0:1 sobre o fundo `#FBF8F5`, abaixo do AA; o novo
+  dá 4,5:1. Mesmo critério da Fase 5.
+- **Fontes**: sem o `<link>` do Google Fonts do prompt — Cormorant Garamond
+  600 e Raleway 400 já vêm do `next/font` em `layout.tsx`.
+- **Grade dentro do `.container` (1200px)**: o `max-width: 1400px` do design
+  fica no CSS, mas a grade acompanha a largura das outras seções. Em 1200px
+  cabem 3 colunas (cards de 384px); abaixo de ~1230px de tela, 2 colunas;
+  no celular, 1.
+- **Ids dos gradientes com prefixo `dc-`** e `<defs>` inseridos uma única vez
+  (`SpecialtyIconDefs`), como o próprio prompt sugere.

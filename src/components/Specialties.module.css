@@ -23,89 +23,102 @@
   margin-bottom: 0;
 }
 
+/*
+ * Cards do design "Cards Especialidades" (Claude Design — prompt em
+ * referencias/design/cards-especialidades.md). Cores, proporções e
+ * tipografia exatamente como especificado; medidas internas em cqw para o
+ * card escalar por inteiro (o card é o contêiner).
+ * Única divergência: a descrição usa #7A716A em vez de #827972, que dava
+ * 4,0:1 sobre #FBF8F5 — abaixo do AA exigido (ver DECISOES.md).
+ */
 .grid {
   list-style: none;
-  margin: 0;
+  max-width: 1400px;
+  margin: 0 auto;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.2rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr));
+  gap: 24px;
 }
 
 .card {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
+  container-type: inline-size;
+  display: block;
   width: 100%;
-  min-height: 104px;
-  padding: 1rem 1.1rem;
-  background: var(--bege-claro);
-  border: 1px solid rgba(200, 174, 132, 0.35);
-  border-radius: var(--radius-m);
-  cursor: pointer;
+  aspect-ratio: 3.4 / 1;
+  padding: 0;
+  font: inherit;
   text-align: left;
-  transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+  cursor: pointer;
+  background: #fbf8f5;
+  border: 1px solid #e8dac9;
+  border-radius: 18px;
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 .card:hover {
-  box-shadow: var(--shadow-media);
-  transform: translateY(-2px);
-  border-color: var(--dourado);
+  border-color: #dcc7ae;
+  box-shadow: 0 6px 24px -12px rgba(132, 90, 50, 0.18);
 }
 
-.cardIcon {
-  flex-shrink: 0;
-  display: inline-flex;
+.card:focus-visible {
+  outline: 2px solid #843b3b;
+  outline-offset: 2px;
+  border-radius: 18px;
 }
 
-.cardText {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  min-width: 0;
-}
-
-.cardText strong {
-  font-family: var(--font-titulo);
-  font-size: 1.12rem;
-  font-weight: 600;
-  color: var(--marsala-escuro);
-  line-height: 1.2;
-}
-
-.cardText span {
-  font-size: 0.78rem;
-  color: var(--cinza-quente-claro);
-  line-height: 1.4;
-}
-
-.cardArrow {
-  margin-left: auto;
-  flex-shrink: 0;
+.inner {
+  height: 100%;
   display: grid;
-  place-items: center;
-  width: 34px;
-  height: 34px;
+  grid-template-columns: 15cqw minmax(0, 1fr) 8.5cqw;
+  column-gap: 3.5cqw;
+  align-items: center;
+  padding: 0 4.5cqw;
+}
+
+.icon {
+  width: 15cqw;
+  height: 15cqw;
+  overflow: visible;
+}
+
+.cardTitle {
+  display: block;
+  font-family: var(--font-titulo);
+  font-weight: 600;
+  font-size: 3.9cqw;
+  line-height: 1.2;
+  color: #843b3b;
+  white-space: nowrap;
+}
+
+.cardDesc {
+  display: block;
+  font-family: var(--font-corpo);
+  font-weight: 400;
+  font-size: 3cqw;
+  line-height: 1.45;
+  color: #7a716a;
+  margin-top: 1.2cqw;
+  text-wrap: pretty;
+}
+
+.cardBtn {
+  width: 8.5cqw;
+  height: 8.5cqw;
   border-radius: 50%;
-  border: 1px solid var(--rose-suave);
-  color: var(--marsala);
-  transition: background-color 0.2s ease, border-color 0.2s ease;
+  border: 1px solid #ead6cd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
 }
 
-.card:hover .cardArrow {
-  background: var(--marsala);
-  border-color: var(--marsala);
-  color: #fff;
+.card:hover .cardBtn {
+  background: rgba(132, 59, 59, 0.04);
 }
 
-@media (max-width: 1023px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 640px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
+.cardBtn svg {
+  width: 3.6cqw;
+  height: 3.6cqw;
 }
